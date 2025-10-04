@@ -1,11 +1,12 @@
-import { Prisma } from "@prisma/client";
+import { GetByCodeUseCase } from "src/lib/planets/application/UseCases/getByCode.usecase";
+import { PrismaPlanetRepository } from "src/lib/planets/infraestructure/database/repositories/prisma-planets.repository";
 
-export const buildTransactionalServices = (tx: Prisma.TransactionClient) => {
+export const buildTransactionalServices = () => {
     return {
-        PlanetService: {
-            getByCode: {
-
-            }
+        planetService: {
+            getByCode: new GetByCodeUseCase(
+                new PrismaPlanetRepository()
+            )
         }
     };
 };
