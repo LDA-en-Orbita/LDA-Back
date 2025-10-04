@@ -1,4 +1,4 @@
-import { CodePlanetsEnums } from "../../domain/enums/code-planets.enum";
+import { CodePlanetsEnums } from "@shared/enums/code-planets.enum";
 import { PlanetsRepository } from "../../domain/repositories/planets.repository";
 
 export class GetAllUseCase{

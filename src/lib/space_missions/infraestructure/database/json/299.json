@@ -1,5 +1,4 @@
-{
-  "space_missions": [
+[
     {
       "id": "magellan",
       "name": "Magellan",
@@ -52,5 +51,5 @@
       "images": [],
       "related_bodies": ["cb_venus"]
     }
-  ]
-}
+]
+

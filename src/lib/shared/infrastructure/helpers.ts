@@ -1,8 +1,5 @@
-import {
-    CodePlanetsEnums,
-    getCodeByName,
-    isValidCode,
-} from "src/lib/planets/domain/enums/code-planets.enum";
+import { CodePlanetsEnums, getCodeByName, isValidCode } from "@shared/enums/code-planets.enum";
+
 
 export function isCodeEnumKey(s: string): s is keyof typeof CodePlanetsEnums {
   return Object.prototype.hasOwnProperty.call(CodePlanetsEnums, s);

@@ -1,5 +1,4 @@
-{
-  "space_missions": [
+[
     {
       "id": "juno",
       "name": "Juno",
@@ -96,5 +95,5 @@
       "images": [],
       "related_bodies": ["cb_jupiter"]
     }
-  ]
-}
+]
+

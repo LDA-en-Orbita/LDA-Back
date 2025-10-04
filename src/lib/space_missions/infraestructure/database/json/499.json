@@ -1,5 +1,4 @@
-{
-  "space_missions": [
+[
     {
       "id": "curiosity",
       "name": "Curiosity",
@@ -148,5 +147,4 @@
       "images": [],
       "related_bodies": ["cb_mars"]
     }
-  ]
-}
+]

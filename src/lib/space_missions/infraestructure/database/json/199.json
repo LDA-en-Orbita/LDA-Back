@@ -1,5 +1,4 @@
-{
-  "space_missions": [
+[
     {
       "id": "messenger",
       "name": "MESSENGER",
@@ -59,5 +58,5 @@
       "images": [],
       "related_bodies": ["cb_mercury"]
     }
-  ]
-}
+]
+

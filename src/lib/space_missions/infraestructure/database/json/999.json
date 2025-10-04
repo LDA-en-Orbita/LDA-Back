@@ -1,5 +1,4 @@
-{
-  "space_missions": [
+[
     {
       "id": "new_horizons",
       "name": "New Horizons",
@@ -86,5 +85,5 @@
       "images": [],
       "related_bodies": ["cb_pluto"]
     }
-  ]
-}
+]
+

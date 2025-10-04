@@ -6,14 +6,14 @@ const router = Router();
 const controller = new PlanetsController();
 
 router.get(
-    '/:code',
-    ValidateCodeRequest,
-    controller.getByCode
+    '/',
+    controller.getAll
 )
 
 router.get(
-    '/',
-    controller.getAll
+    '/:code',
+    ValidateCodeRequest,
+    controller.getByCode
 )
 
 export { router as planetRoutes };

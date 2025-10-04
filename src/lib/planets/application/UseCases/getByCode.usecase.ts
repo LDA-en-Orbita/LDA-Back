@@ -1,4 +1,5 @@
-import { CodePlanetsEnums } from "../../domain/enums/code-planets.enum";
+
+import { CodePlanetsEnums } from "@shared/enums/code-planets.enum";
 import { PlanetsRepository } from "../../domain/repositories/planets.repository";
 
 export class GetByCodeUseCase{
@@ -6,7 +7,7 @@ export class GetByCodeUseCase{
 		private readonly planetsRepository: PlanetsRepository,
     ) {}
 
-    async execute(code: CodePlanetsEnums): Promise<any> {
+    async execute(code: CodePlanetsEnums): Promise<Record<CodePlanetsEnums, any>> {
         const data = await this.planetsRepository.getByCode(code);
         return data;
     }

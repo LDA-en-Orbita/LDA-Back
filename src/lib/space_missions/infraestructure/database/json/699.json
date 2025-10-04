@@ -1,5 +1,4 @@
-{
-  "space_missions": [
+[
     {
       "id": "cassini_huygens",
       "name": "Cassini-Huygens",
@@ -71,5 +70,5 @@
       "images": [],
       "related_bodies": ["cb_saturn"]
     }
-  ]
-}
+]
+
