@@ -1,0 +1,56 @@
+{
+  "space_missions": [
+    {
+      "id": "magellan",
+      "name": "Magellan",
+      "name_es": "Magallanes",
+      "mission_type": "orbiter",
+      "target_body": "cb_venus",
+      "agency": "NASA",
+      "launch_date": "1989-05-04",
+      "arrival_date": "1990-08-10",
+      "mission_end_date": "1994-10-13",
+      "status": "completed",
+      "current_status_description": "Misión finalizada, se desintegró en la atmósfera venusina en 1994",
+      "mission_duration": {
+        "total_years": 5.4,
+        "orbital_years": 4.2
+      },
+      "achievements": [
+        {
+          "year": "1990-1994",
+          "description": "Cartografió el 98% de la superficie de Venus",
+          "significance": "Mapeo más completo de Venus hasta la fecha"
+        },
+        {
+          "year": 1993,
+          "description": "Realizó experimento de aerofrenado atmosférico",
+          "significance": "Primera prueba de esta técnica en otro planeta"
+        }
+      ],
+      "scientific_objectives": [
+        "Mapear la superficie con radar",
+        "Estudiar la topografía global",
+        "Analizar procesos geológicos",
+        "Medir el campo gravitacional",
+        "Investigar la dinámica atmosférica"
+      ],
+      "key_instruments": [
+        "SAR (radar de apertura sintética)",
+        "Altímetro de radar",
+        "Radiómetro de microondas"
+      ],
+      "mission_highlights": [
+        "Resolución de imágenes: 120-300 metros",
+        "Descubrió más de 1,000 volcanes",
+        "Reveló extensas planicies de lava",
+        "Identificó estructuras tectónicas únicas",
+        "Mapeo gravimétrico de alta precisión"
+      ],
+      "description": "Misión que reveló la geología volcánica de Venus mediante radar de penetración de nubes",
+      "official_url": "https://science.nasa.gov/mission/magellan/",
+      "images": [],
+      "related_bodies": ["cb_venus"]
+    }
+  ]
+}

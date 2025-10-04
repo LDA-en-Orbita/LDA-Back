@@ -1,0 +1,90 @@
+{
+  "space_missions": [
+    {
+      "id": "new_horizons",
+      "name": "New Horizons",
+      "name_es": "New Horizons",
+      "mission_type": "flyby",
+      "target_body": "cb_pluto",
+      "agency": "NASA",
+      "launch_date": "2006-01-19",
+      "mission_end_date": null,
+      "status": "active",
+      "current_status_description": "En el Cinturón de Kuiper, explorando objetos distantes",
+      "mission_duration": { "current_years": 19.7 },
+      "major_encounters": [
+        {
+          "target": "Plutón",
+          "date": "2015-07-14",
+          "closest_approach_km": 12500,
+          "achievements": [
+            "Primeras imágenes detalladas de Plutón",
+            "Descubrió complejidad geológica",
+            "Estudió atmósfera y lunas"
+          ]
+        },
+        {
+          "target": "Arrokoth (2014 MU69)",
+          "date": "2019-01-01",
+          "closest_approach_km": 3500,
+          "achievements": [
+            "Objeto más distante visitado",
+            "Reveló forma de 'muñeco de nieve'",
+            "Estudió objeto primordial del sistema solar"
+          ]
+        }
+      ],
+      "achievements": [
+        { "year": 2015, "description": "Primer sobrevuelo de Plutón", "significance": "Completó exploración inicial de planetas clásicos" },
+        { "year": 2015, "description": "Reveló llanura Sputnik (corazón de hielo de Plutón)", "significance": "Descubrió geología activa inesperada" },
+        { "year": 2019, "description": "Sobrevuelo de Arrokoth en Cinturón de Kuiper", "significance": "Objeto más lejano explorado por una nave espacial" }
+      ],
+      "scientific_objectives": [
+        "Caracterizar geología de Plutón",
+        "Estudiar atmósfera y escape atmosférico",
+        "Mapear composición superficial",
+        "Investigar sistema de lunas",
+        "Explorar objetos del Cinturón de Kuiper",
+        "Estudiar ambiente de plasma"
+      ],
+      "key_instruments": [
+        "Ralph (cámara de color e infrarrojo)",
+        "LORRI (cámara telescópica)",
+        "Alice (espectrómetro UV)",
+        "REX (experimento de radio)",
+        "SWAP (detector de viento solar)",
+        "PEPSSI (espectrómetro de partículas)",
+        "SDC (contador de polvo)"
+      ],
+      "major_discoveries": [
+        "Plutón tiene geología activa (montañas de hielo, glaciares)",
+        "Atmósfera azulada de Plutón",
+        "Caronte tiene superficie joven con cañones",
+        "Arrokoth conserva composición primordial",
+        "Evidencia de criovolcanismo en Plutón"
+      ],
+      "mission_highlights": [
+        "Nave espacial más rápida al lanzamiento (58,000 km/h)",
+        "Más de 6,000 millones de km recorridos hasta Plutón",
+        "50 GB de datos transmitidos desde Plutón (tardó 15 meses)",
+        "Lleva cenizas de Clyde Tombaugh (descubridor de Plutón)",
+        "Actualmente explorando Cinturón de Kuiper extendido"
+      ],
+      "future_targets": {
+        "status": "buscando",
+        "description": "Buscando nuevos objetos del Cinturón de Kuiper para sobrevolar",
+        "fuel_status": "suficiente combustible para continuar"
+      },
+      "current_location": {
+        "region": "Cinturón de Kuiper",
+        "distance_from_earth_au": 59.5,
+        "distance_from_sun_au": 59.5,
+        "speed_km_s": 14.3
+      },
+      "description": "Misión que reveló los secretos de Plutón y explora los confines del sistema solar",
+      "official_url": "https://science.nasa.gov/mission/new-horizons/",
+      "images": [],
+      "related_bodies": ["cb_pluto"]
+    }
+  ]
+}

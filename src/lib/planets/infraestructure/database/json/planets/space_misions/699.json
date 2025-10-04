@@ -1,0 +1,75 @@
+{
+  "space_missions": [
+    {
+      "id": "cassini_huygens",
+      "name": "Cassini-Huygens",
+      "name_es": "Cassini-Huygens",
+      "mission_type": "orbiter_lander",
+      "target_body": "cb_saturn",
+      "agency": "NASA/ESA/ASI",
+      "launch_date": "1997-10-15",
+      "arrival_date": "2004-07-01",
+      "mission_end_date": "2017-09-15",
+      "status": "completed",
+      "current_status_description": "Misión finalizada, se desintegró en la atmósfera de Saturno en 2017",
+      "mission_duration": {
+        "total_years": 19.9,
+        "orbital_years": 13.2
+      },
+      "mission_components": [
+        {
+          "name": "Cassini",
+          "type": "orbitador",
+          "description": "Nave principal que orbitó Saturno"
+        },
+        {
+          "name": "Huygens",
+          "type": "sonda de descenso",
+          "description": "Aterrizó en Titán en 2005"
+        }
+      ],
+      "achievements": [
+        { "year": 2004, "description": "Entró en órbita alrededor de Saturno", "significance": "Primera nave en orbitar Saturno" },
+        { "year": 2005, "description": "Huygens aterrizó en Titán", "significance": "Primer aterrizaje en sistema solar exterior" },
+        { "year": 2005, "description": "Descubrió géiseres de agua en Encélado", "significance": "Evidencia de océano subterráneo activo" },
+        { "year": "2004-2017", "description": "Estudio completo del sistema de Saturno durante 13 años", "significance": "Misión más larga en sistema solar exterior" }
+      ],
+      "scientific_objectives": [
+        "Estudiar estructura de anillos",
+        "Explorar atmósfera de Saturno",
+        "Caracterizar lunas del sistema",
+        "Investigar Titán y su atmósfera",
+        "Analizar magnetosfera",
+        "Buscar actividad geológica en lunas"
+      ],
+      "key_instruments": [
+        "Cámaras de imagen (ISS)",
+        "Espectrómetros (visual, infrarrojo, UV)",
+        "Radar de Titán",
+        "Magnetómetro",
+        "Detector de polvo cósmico",
+        "Analizador de plasma"
+      ],
+      "major_discoveries": [
+        "Lagos y mares de metano líquido en Titán",
+        "Océano bajo la superficie de Encélado",
+        "Estructura compleja de los anillos",
+        "Tormentas hexagonales en polo norte",
+        "7 nuevas lunas descubiertas",
+        "Moléculas orgánicas complejas en Titán"
+      ],
+      "mission_highlights": [
+        "294 órbitas alrededor de Saturno",
+        "635,000 imágenes capturadas",
+        "162 sobrevuelos de lunas",
+        "127 sobrevuelos de Titán",
+        "23 sobrevuelos de Encélado",
+        "Gran Finale: 22 inmersiones entre Saturno y sus anillos"
+      ],
+      "description": "Misión histórica que revolucionó nuestra comprensión de Saturno y sus lunas",
+      "official_url": "https://science.nasa.gov/mission/cassini/",
+      "images": [],
+      "related_bodies": ["cb_saturn"]
+    }
+  ]
+}

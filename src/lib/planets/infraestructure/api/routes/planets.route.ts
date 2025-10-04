@@ -11,4 +11,9 @@ router.get(
     controller.getByCode
 )
 
+router.get(
+    '/',
+    controller.getAll
+)
+
 export { router as planetRoutes };
