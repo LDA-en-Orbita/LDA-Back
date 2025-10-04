@@ -1,0 +1,70 @@
+{
+  "command": "999",
+  "target_name": "Pluto",
+  "target_name_es": "Plutón",
+  "attributes": [
+    {
+      "name": {
+        "es": "Radio medio (km)",
+        "en": "Mean Radius (km)"
+      },
+      "value": "1188.3"
+    },
+    {
+      "name": {
+        "es": "Masa ×10^24 (kg)",
+        "en": "Mass ×10^24 (kg)"
+      },
+      "value": "0.01307"
+    },
+    {
+      "name": {
+        "es": "Densidad (g/cm³)",
+        "en": "Density (g/cm³)"
+      },
+      "value": "1.86"
+    },
+    {
+      "name": {
+        "es": "GM (km³/s²)",
+        "en": "GM (km³/s²)"
+      },
+      "value": "869.326"
+    },
+    {
+      "name": {
+        "es": "Velocidad de escape (km/s)",
+        "en": "Escape velocity (km/s)"
+      },
+      "value": "1.21"
+    },
+    {
+      "name": {
+        "es": "Período de rotación sideral",
+        "en": "Sidereal rotation period"
+      },
+      "value": "153.29335198 h"
+    },
+    {
+      "name": {
+        "es": "Período orbital sideral (años)",
+        "en": "Sidereal orbital period (years)"
+      },
+      "value": "249.58932"
+    },
+    {
+      "name": {
+        "es": "Velocidad orbital media (km/s)",
+        "en": "Mean Orbital velocity (km/s)"
+      },
+      "value": "4.67"
+    },
+    {
+      "name": {
+        "es": "Volumen (km³)",
+        "en": "Volume (km³)"
+      },
+      "value": "0.697 x10^10"
+    }
+  ]
+}

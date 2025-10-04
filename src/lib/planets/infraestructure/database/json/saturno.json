@@ -1,0 +1,232 @@
+{
+  "command": "699",
+  "target_name": "Saturn",
+  "target_name_es": "Saturno",
+  "attributes": [
+    {
+      "name": {
+        "es": "Masa",
+        "en": "Mass x10^26 (kg)"
+      },
+      "raw_value": "5.6834",
+      "value": "5.6834",
+      "unit": "x10^26 kg"
+    },
+    {
+      "name": {
+        "es": "Densidad",
+        "en": "Density (g/cm^3)"
+      },
+      "raw_value": "0.687+-.001",
+      "value": "0.687",
+      "unit": "g/cm^3"
+    },
+    {
+      "name": {
+        "es": "Radio ecuatorial (1 bar)",
+        "en": "Equat. radius (1 bar)"
+      },
+      "raw_value": "60268+-4 km",
+      "value": "60268",
+      "unit": "km"
+    },
+    {
+      "name": {
+        "es": "Radio polar",
+        "en": "Polar radius (km)"
+      },
+      "raw_value": "54364+-10",
+      "value": "54364",
+      "unit": "km"
+    },
+    {
+      "name": {
+        "es": "Radio medio volumétrico",
+        "en": "Vol. Mean Radius (km)"
+      },
+      "raw_value": "58232+-6",
+      "value": "58232",
+      "unit": "km"
+    },
+    {
+      "name": {
+        "es": "Achatamiento",
+        "en": "Flattening"
+      },
+      "raw_value": "0.09796",
+      "value": "0.09796",
+      "unit": ""
+    },
+    {
+      "name": {
+        "es": "Albedo geométrico",
+        "en": "Geometric Albedo"
+      },
+      "raw_value": "0.47",
+      "value": "0.47",
+      "unit": ""
+    },
+    {
+      "name": {
+        "es": "Masa del núcleo rocoso (Mc/M)",
+        "en": "Rocky core mass (Mc/M)"
+      },
+      "raw_value": "0.1027",
+      "value": "0.1027",
+      "unit": ""
+    },
+    {
+      "name": {
+        "es": "Período de rotación sideral (III)",
+        "en": "Sid. rot. period (III)"
+      },
+      "raw_value": "10h 39m 22.4s",
+      "value": "10.656222",
+      "unit": "hr"
+    },
+    {
+      "name": {
+        "es": "Tasa de rotación sideral",
+        "en": "Sid. rot. rate (rad/s)"
+      },
+      "raw_value": "0.000163785",
+      "value": "0.000163785",
+      "unit": "rad/s"
+    },
+    {
+      "name": {
+        "es": "Día solar medio",
+        "en": "Mean solar day, hrs"
+      },
+      "raw_value": "~10.656",
+      "value": "10.656",
+      "unit": "hrs"
+    },
+    {
+      "name": {
+        "es": "GM",
+        "en": "GM (km^3/s^2)"
+      },
+      "raw_value": "37931206.234",
+      "value": "37931206.234",
+      "unit": "km^3/s^2"
+    },
+    {
+      "name": {
+        "es": "GM 1-sigma",
+        "en": "GM 1-sigma (km^3/s^2)"
+      },
+      "raw_value": "+- 98",
+      "value": "98",
+      "unit": "km^3/s^2"
+    },
+    {
+      "name": {
+        "es": "Gravedad ecuatorial",
+        "en": "Equ. grav, ge (m/s^2)"
+      },
+      "raw_value": "10.44",
+      "value": "10.44",
+      "unit": "m/s^2"
+    },
+    {
+      "name": {
+        "es": "Gravedad polar",
+        "en": "Pol. grav, gp (m/s^2)"
+      },
+      "raw_value": "12.14+-0.01",
+      "value": "12.14",
+      "unit": "m/s^2"
+    },
+    {
+      "name": {
+        "es": "Magnitud visual V(1,0)",
+        "en": "Vis. magnitude V(1,0)"
+      },
+      "raw_value": "-8.88",
+      "value": "-8.88",
+      "unit": ""
+    },
+    {
+      "name": {
+        "es": "Magnitud visual (oposición)",
+        "en": "Vis. mag. (opposition)"
+      },
+      "raw_value": "+0.67",
+      "value": "0.67",
+      "unit": ""
+    },
+    {
+      "name": {
+        "es": "Oblicuidad a la órbita",
+        "en": "Obliquity to orbit"
+      },
+      "raw_value": "26.73 deg",
+      "value": "26.73",
+      "unit": "deg"
+    },
+    {
+      "name": {
+        "es": "Período orbital sideral",
+        "en": "Sidereal orbit period"
+      },
+      "raw_value": "29.447498 yr",
+      "value": "29.447498",
+      "unit": "yr"
+    },
+    {
+      "name": {
+        "es": "Período orbital sideral",
+        "en": "Sidereal orbit period"
+      },
+      "raw_value": "10755.698 d",
+      "value": "10755.698",
+      "unit": "d"
+    },
+    {
+      "name": {
+        "es": "Velocidad orbital media",
+        "en": "Mean orbit velocity"
+      },
+      "raw_value": "9.68 km/s",
+      "value": "9.68",
+      "unit": "km/s"
+    },
+    {
+      "name": {
+        "es": "Temperatura atmosférica (1 bar)",
+        "en": "Atmos. temp. (1 bar)"
+      },
+      "raw_value": "134+-4 K",
+      "value": "134",
+      "unit": "K"
+    },
+    {
+      "name": {
+        "es": "Velocidad de escape",
+        "en": "Escape speed, km/s"
+      },
+      "raw_value": "35.5",
+      "value": "35.5",
+      "unit": "km/s"
+    },
+    {
+      "name": {
+        "es": "Aroche(hielo)/Rp",
+        "en": "Aroche(ice)/Rp"
+      },
+      "raw_value": "2.71",
+      "value": "2.71",
+      "unit": ""
+    },
+    {
+      "name": {
+        "es": "Radio de la esfera de Hill",
+        "en": "Hill's sphere rad. Rp"
+      },
+      "raw_value": "1100",
+      "value": "1100",
+      "unit": "Rp"
+    }
+  ]
+}
