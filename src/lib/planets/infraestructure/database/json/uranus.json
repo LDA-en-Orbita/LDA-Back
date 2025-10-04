@@ -1,0 +1,112 @@
+{
+  "command": "799",
+  "target_name": "Uranus",
+  "target_name_es": "Urano",
+  "attributes": [
+    {
+      "name": {
+        "es": "Radio medio (km)",
+        "en": "Mean Radius (km)"
+      },
+      "value": "25362"
+    },
+    {
+      "name": {
+        "es": "Masa ×10^24 (kg)",
+        "en": "Mass ×10^24 (kg)"
+      },
+      "value": "86.813"
+    },
+    {
+      "name": {
+        "es": "Densidad (g/cm³)",
+        "en": "Density (g/cm³)"
+      },
+      "value": "1.271"
+    },
+    {
+      "name": {
+        "es": "Radio ecuatorial (km)",
+        "en": "Equatorial radius (km)"
+      },
+      "value": "25559"
+    },
+    {
+      "name": {
+        "es": "Radio polar (km)",
+        "en": "Polar radius (km)"
+      },
+      "value": "24973"
+    },
+    {
+      "name": {
+        "es": "Achatamiento",
+        "en": "Flattening"
+      },
+      "value": "0.02293"
+    },
+    {
+      "name": {
+        "es": "GM (km³/s²)",
+        "en": "GM (km³/s²)"
+      },
+      "value": "5793950.6103"
+    },
+    {
+      "name": {
+        "es": "Velocidad de escape (km/s)",
+        "en": "Escape velocity (km/s)"
+      },
+      "value": "21.3"
+    },
+    {
+      "name": {
+        "es": "Albedo geométrico",
+        "en": "Geometric Albedo"
+      },
+      "value": "0.51"
+    },
+    {
+      "name": {
+        "es": "Temperatura media (K)",
+        "en": "Mean Temperature (K)"
+      },
+      "value": "76"
+    },
+    {
+      "name": {
+        "es": "Período de rotación sideral",
+        "en": "Sidereal rotation period"
+      },
+      "value": "17.24 h"
+    },
+    {
+      "name": {
+        "es": "Período orbital sideral (años)",
+        "en": "Sidereal orbital period (years)"
+      },
+      "value": "84.0120465"
+    },
+    {
+      "name": {
+        "es": "Período orbital sideral (días)",
+        "en": "Sidereal orbital period (days)"
+      },
+      "value": "30685.4"
+    },
+    {
+      "name": {
+        "es": "Velocidad orbital media (km/s)",
+        "en": "Mean Orbital velocity (km/s)"
+      },
+      "value": "6.8"
+    },
+    {
+      "name": {
+        "es": "Oblicuidad del eje (grados)",
+        "en": "Axial tilt (degrees)"
+      },
+      "value": "97.77"
+    }
+  ]
+}

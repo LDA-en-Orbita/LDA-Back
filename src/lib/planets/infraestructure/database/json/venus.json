@@ -1,0 +1,223 @@
+{
+  "command": "299",
+  "target_name": "Venus",
+  "target_name_es": "Venus",
+  "attributes": [
+    {
+      "name": {
+        "es": "Radio medio volumétrico",
+        "en": "Vol. Mean Radius (km)"
+      },
+      "raw_value": "6051.84+-0.01",
+      "value": "6051.84",
+      "unit": "km"
+    },
+    {
+      "name": {
+        "es": "Densidad",
+        "en": "Density (g/cm^3)"
+      },
+      "raw_value": "5.204",
+      "value": "5.204",
+      "unit": "g/cm^3"
+    },
+    {
+      "name": {
+        "es": "Masa",
+        "en": "Mass x10^23 (kg)"
+      },
+      "raw_value": "48.685",
+      "value": "48.685",
+      "unit": "x10^23 kg"
+    },
+    {
+      "name": {
+        "es": "Volumen",
+        "en": "Volume (x10^10 km^3)"
+      },
+      "raw_value": "92.843",
+      "value": "92.843",
+      "unit": "x10^10 km^3"
+    },
+    {
+      "name": {
+        "es": "Período de rotación sideral",
+        "en": "Sidereal rot. period"
+      },
+      "raw_value": "243.018484 d",
+      "value": "243.018484",
+      "unit": "d"
+    },
+    {
+      "name": {
+        "es": "Tasa de rotación sideral",
+        "en": "Sid. Rot. Rate (rad/s)"
+      },
+      "raw_value": "-0.00000029924",
+      "value": "-0.00000029924",
+      "unit": "rad/s"
+    },
+    {
+      "name": {
+        "es": "Día solar medio",
+        "en": "Mean solar day"
+      },
+      "raw_value": "116.7490 d",
+      "value": "116.7490",
+      "unit": "d"
+    },
+    {
+      "name": {
+        "es": "Gravedad ecuatorial",
+        "en": "Equ. gravity  m/s^2"
+      },
+      "raw_value": "8.870",
+      "value": "8.870",
+      "unit": "m/s^2"
+    },
+    {
+      "name": {
+        "es": "Momento de inercia",
+        "en": "Mom. of Inertia"
+      },
+      "raw_value": "0.33",
+      "value": "0.33",
+      "unit": ""
+    },
+    {
+      "name": {
+        "es": "Radio del núcleo",
+        "en": "Core radius (km)"
+      },
+      "raw_value": "~3200",
+      "value": "3200",
+      "unit": "km"
+    },
+    {
+      "name": {
+        "es": "Albedo geométrico",
+        "en": "Geometric Albedo"
+      },
+      "raw_value": "0.65",
+      "value": "0.65",
+      "unit": ""
+    },
+    {
+      "name": {
+        "es": "Número de Love potencial",
+        "en": "Potential Love # k2"
+      },
+      "raw_value": "~0.25",
+      "value": "0.25",
+      "unit": ""
+    },
+    {
+      "name": {
+        "es": "GM",
+        "en": "GM (km^3/s^2)"
+      },
+      "raw_value": "324858.592",
+      "value": "324858.592",
+      "unit": "km^3/s^2"
+    },
+    {
+      "name": {
+        "es": "Radio ecuatorial",
+        "en": "Equatorial Radius, Re"
+      },
+      "raw_value": "6051.893 km",
+      "value": "6051.893",
+      "unit": "km"
+    },
+    {
+      "name": {
+        "es": "GM 1-sigma",
+        "en": "GM 1-sigma (km^3/s^2)"
+      },
+      "raw_value": "+-0.006",
+      "value": "0.006",
+      "unit": "km^3/s^2"
+    },
+    {
+      "name": {
+        "es": "Relación de masa (Sol/Venus)",
+        "en": "Mass ratio (Sun/Venus)"
+      },
+      "raw_value": "408523.72",
+      "value": "408523.72",
+      "unit": ""
+    },
+    {
+      "name": {
+        "es": "Presión atmosférica",
+        "en": "Atmos. pressure (bar)"
+      },
+      "raw_value": "90",
+      "value": "90",
+      "unit": "bar"
+    },
+    {
+      "name": {
+        "es": "Temperatura media",
+        "en": "Mean Temperature (K)"
+      },
+      "raw_value": "735",
+      "value": "735",
+      "unit": "K"
+    },
+    {
+      "name": {
+        "es": "Oblicuidad a la órbita",
+        "en": "Obliquity to orbit"
+      },
+      "raw_value": "177.3 deg",
+      "value": "177.3",
+      "unit": "deg"
+    },
+    {
+      "name": {
+        "es": "Radio de la esfera de Hill",
+        "en": "Hill's sphere rad.,Rp"
+      },
+      "raw_value": "167.1",
+      "value": "167.1",
+      "unit": "Rp"
+    },
+    {
+      "name": {
+        "es": "Período orbital sideral",
+        "en": "Sidereal orb. per., y"
+      },
+      "raw_value": "0.61519726",
+      "value": "0.61519726",
+      "unit": "y"
+    },
+    {
+      "name": {
+        "es": "Velocidad orbital",
+        "en": "Orbit speed, km/s"
+      },
+      "raw_value": "35.021",
+      "value": "35.021",
+      "unit": "km/s"
+    },
+    {
+      "name": {
+        "es": "Período orbital sideral",
+        "en": "Sidereal orb. per., d"
+      },
+      "raw_value": "224.70079922",
+      "value": "224.70079922",
+      "unit": "d"
+    },
+    {
+      "name": {
+        "es": "Velocidad de escape",
+        "en": "Escape speed, km/s"
+      },
+      "raw_value": "10.361",
+      "value": "10.361",
+      "unit": "km/s"
+    }
+  ]
+}

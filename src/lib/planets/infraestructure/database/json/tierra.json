@@ -1,0 +1,286 @@
+{
+  "command": "399",
+  "target_name": "Earth",
+  "target_name_es": "Tierra",
+  "attributes": [
+    {
+      "name": {
+        "es": "Radio medio volumétrico",
+        "en": "Vol. Mean Radius (km)"
+      },
+      "raw_value": "6371.01+-0.02",
+      "value": "6371.01",
+      "unit": "km"
+    },
+    {
+      "name": {
+        "es": "Masa",
+        "en": "Mass x10^24 (kg)"
+      },
+      "raw_value": "5.97219+-0.0006",
+      "value": "5.97219",
+      "unit": "x10^24 kg"
+    },
+    {
+      "name": {
+        "es": "Radio ecuatorial",
+        "en": "Equ. radius, km"
+      },
+      "raw_value": "6378.137",
+      "value": "6378.137",
+      "unit": "km"
+    },
+    {
+      "name": {
+        "es": "Eje polar",
+        "en": "Polar axis, km"
+      },
+      "raw_value": "6356.752",
+      "value": "6356.752",
+      "unit": "km"
+    },
+    {
+      "name": {
+        "es": "Achatamiento",
+        "en": "Flattening"
+      },
+      "raw_value": "1/298.257223563",
+      "value": "1/298.257223563",
+      "unit": ""
+    },
+    {
+      "name": {
+        "es": "Densidad",
+        "en": "Density, g/cm^3"
+      },
+      "raw_value": "5.51",
+      "value": "5.51",
+      "unit": "g/cm^3"
+    },
+    {
+      "name": {
+        "es": "J2 (IERS 2010)",
+        "en": "J2 (IERS 2010)"
+      },
+      "raw_value": "0.00108262545",
+      "value": "0.00108262545",
+      "unit": ""
+    },
+    {
+      "name": {
+        "es": "Gravedad polar",
+        "en": "g_p, m/s^2  (polar)"
+      },
+      "raw_value": "9.8321863685",
+      "value": "9.8321863685",
+      "unit": "m/s^2"
+    },
+    {
+      "name": {
+        "es": "Gravedad ecuatorial",
+        "en": "g_e, m/s^2  (equatorial)"
+      },
+      "raw_value": "9.7803267715",
+      "value": "9.7803267715",
+      "unit": "m/s^2"
+    },
+    {
+      "name": {
+        "es": "Gravedad observada",
+        "en": "g_o, m/s^2"
+      },
+      "raw_value": "9.82022",
+      "value": "9.82022",
+      "unit": "m/s^2"
+    },
+    {
+      "name": {
+        "es": "GM",
+        "en": "GM, km^3/s^2"
+      },
+      "raw_value": "398600.435436",
+      "value": "398600.435436",
+      "unit": "km^3/s^2"
+    },
+    {
+      "name": {
+        "es": "GM 1-sigma",
+        "en": "GM 1-sigma, km^3/s^2"
+      },
+      "raw_value": "0.0014",
+      "value": "0.0014",
+      "unit": "km^3/s^2"
+    },
+    {
+      "name": {
+        "es": "Radio del núcleo fluido",
+        "en": "Fluid core rad"
+      },
+      "raw_value": "3480 km",
+      "value": "3480",
+      "unit": "km"
+    },
+    {
+      "name": {
+        "es": "Radio del núcleo interno",
+        "en": "Inner core rad"
+      },
+      "raw_value": "1215 km",
+      "value": "1215",
+      "unit": "km"
+    },
+    {
+      "name": {
+        "es": "Velocidad de escape",
+        "en": "Escape velocity"
+      },
+      "raw_value": "11.186 km/s",
+      "value": "11.186",
+      "unit": "km/s"
+    },
+    {
+      "name": {
+        "es": "Tasa de rotación",
+        "en": "Rot. Rate (rad/s)"
+      },
+      "raw_value": "0.00007292115",
+      "value": "0.00007292115",
+      "unit": "rad/s"
+    },
+    {
+      "name": {
+        "es": "Área superficial terrestre",
+        "en": "Surface area: land"
+      },
+      "raw_value": "1.48 x 10^8 km",
+      "value": "1.48",
+      "unit": "x 10^8 km^2"
+    },
+    {
+      "name": {
+        "es": "Área superficial marina",
+        "en": "Surface area: sea"
+      },
+      "raw_value": "3.62 x 10^8 km",
+      "value": "3.62",
+      "unit": "x 10^8 km^2"
+    },
+    {
+      "name": {
+        "es": "Día sideral medio",
+        "en": "Mean sidereal day, hr"
+      },
+      "raw_value": "23.9344695944",
+      "value": "23.9344695944",
+      "unit": "hr"
+    },
+    {
+      "name": {
+        "es": "Número de Love k2",
+        "en": "Love no., k2"
+      },
+      "raw_value": "0.299",
+      "value": "0.299",
+      "unit": ""
+    },
+    {
+      "name": {
+        "es": "Momento de inercia",
+        "en": "Moment of inertia"
+      },
+      "raw_value": "0.3308",
+      "value": "0.3308",
+      "unit": ""
+    },
+    {
+      "name": {
+        "es": "Presión atmosférica",
+        "en": "Atm. pressure"
+      },
+      "raw_value": "1.0 bar",
+      "value": "1.0",
+      "unit": "bar"
+    },
+    {
+      "name": {
+        "es": "Temperatura superficial media",
+        "en": "Mean surface temp (Ts), K"
+      },
+      "raw_value": "287.6",
+      "value": "287.6",
+      "unit": "K"
+    },
+    {
+      "name": {
+        "es": "Temperatura efectiva media",
+        "en": "Mean effect. temp (Te), K"
+      },
+      "raw_value": "255",
+      "value": "255",
+      "unit": "K"
+    },
+    {
+      "name": {
+        "es": "Volumen",
+        "en": "Volume, km^3"
+      },
+      "raw_value": "1.08321 x 10^12",
+      "value": "1.08321",
+      "unit": "x 10^12 km^3"
+    },
+    {
+      "name": {
+        "es": "Albedo geométrico",
+        "en": "Geometric albedo"
+      },
+      "raw_value": "0.367",
+      "value": "0.367",
+      "unit": ""
+    },
+    {
+      "name": {
+        "es": "Oblicuidad a la órbita",
+        "en": "Obliquity to orbit, deg"
+      },
+      "raw_value": "23.4392911",
+      "value": "23.4392911",
+      "unit": "deg"
+    },
+    {
+      "name": {
+        "es": "Período orbital sideral",
+        "en": "Sidereal orb period"
+      },
+      "raw_value": "1.0000174 y",
+      "value": "1.0000174",
+      "unit": "y"
+    },
+    {
+      "name": {
+        "es": "Velocidad orbital",
+        "en": "Orbital speed, km/s"
+      },
+      "raw_value": "29.79",
+      "value": "29.79",
+      "unit": "km/s"
+    },
+    {
+      "name": {
+        "es": "Período orbital sideral",
+        "en": "Sidereal orb period"
+      },
+      "raw_value": "365.25636 d",
+      "value": "365.25636",
+      "unit": "d"
+    },
+    {
+      "name": {
+        "es": "Radio de la esfera de Hill",
+        "en": "Hill's sphere radius"
+      },
+      "raw_value": "234.9",
+      "value": "234.9",
+      "unit": "Earth radii"
+    }
+  ]
+}
