@@ -26,7 +26,6 @@ FROM base AS runner
 COPY --from=builder --chown=nodeuser:nodejs /app/dist ./dist
 COPY --from=builder --chown=nodeuser:nodejs /app/node_modules ./node_modules
 COPY --from=builder --chown=nodeuser:nodejs /app/package.json ./
-COPY --from=builder --chown=nodeuser:nodejs /app/prisma ./prisma
 USER nodeuser
 
 CMD ["npm", "run", "start"]
