@@ -9,7 +9,7 @@ export const withServicesTransaction = async <T>(
 ): Promise<T> => {
   return await prismaClient.$transaction(
     async (tx: Prisma.TransactionClient) => {
-      const services = buildTransactionalServices(tx);
+      const services = buildTransactionalServices();
       return await callback(services);
     },
     {
