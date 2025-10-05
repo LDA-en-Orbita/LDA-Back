@@ -13,6 +13,8 @@ import { getAllUseCase as observationTipsAllUseCase } from "@src/lib/observation
 import { PrismaSpaceMissionsRepository } from "src/lib/space_missions/infraestructure/database/repositories/prisma-space_missions.repository";
 import { NasaObservationTipsRepository } from "@src/lib/observation_tips/infraestructure/database/repositories/nasa-observation-tips.repository";
 import { NasaEducationContentRepository } from "@src/lib/education_content/infraestructure/database/repositories/nasa-education-content.repository";
+import { GetByCodeAndTypeUseCase } from "@src/lib/files/application/UseCases/getByCodeAndType.usecases";
+import { NasaFilesRepository } from "@src/lib/files/infraestructure/database/repositories/nasa-files.repository";
 
 export const buildTransactionalServices = () => {
     return {
@@ -49,5 +51,10 @@ export const buildTransactionalServices = () => {
                 new NasaSynchronizeRepository()
             ),
         },
+        filesService:{
+            getByCode: new GetByCodeAndTypeUseCase(
+                new NasaFilesRepository()
+            )
+        }
     };
 };

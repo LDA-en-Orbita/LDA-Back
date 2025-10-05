@@ -1,4 +1,5 @@
 import { educationContentRoutes } from '@src/lib/education_content/infraestructure/api/routes/education-content.route';
+import { filesRoutes } from '@src/lib/files/infraestructure/api/routes/files.routes';
 import { observationTipsRoutes } from '@src/lib/observation_tips/infraestructure/api/routes/observation-tips.route';
 import { synchronizeRoutes } from '@src/lib/synchronize/infraestructure/api/routes/syncrhonize.route';
 import express from 'express';
@@ -18,6 +19,8 @@ route.use('/education-content', educationContentRoutes);
 route.use('/observation-tips', observationTipsRoutes);
 
 route.use('/synchronize', synchronizeRoutes);
+
+route.use('/files', filesRoutes);
 
 
 route.get('/ping', (_req: Request, res: Response) => {
