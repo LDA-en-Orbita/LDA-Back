@@ -12,12 +12,10 @@
 
     "baseUrl": ".",
     "paths": {
-      "@author/*": ["src/lib/Author/*"],
-      "@book/*": ["src/lib/Book/*"],
-      "@auth/*": ["src/lib/Auth/*"],
       "@shared/*": ["src/lib/shared/*"],
       "@common/*": ["src/common/*"],
-      "@config/*": ["src/config/*"]
+      "@config/*": ["src/config/*"],
+      "@src/*": ["src/*"],
     },
 
     "resolveJsonModule": true,
@@ -29,7 +27,8 @@
     "skipLibCheck": true,
 
     "outDir": "./dist",
-    "rootDir": "./src",
+    "rootDir": ".",
+    "rootDirs": ["./src"],
 
     "removeComments": true,
     "importHelpers": true,
@@ -42,7 +41,6 @@
   },
   "include": [
     "src/**/*",
-    "src/**/*.proto"
   ],
   "exclude": ["node_modules", "dist"]
 }
