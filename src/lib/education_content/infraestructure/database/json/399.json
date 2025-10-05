@@ -1,0 +1,53 @@
+[
+    {
+        "planet_code": "399",
+        "id": "edu_earth_001",
+        "type": "guide",
+        "title": "¿Se puede observar la Tierra como planeta?",
+        "difficulty": "beginner",
+        "duration_minutes": 8,
+        "topics": [
+            "earth",
+            "observing_tips",
+            "earth_atmosphere"
+        ],
+        "description": "Desde la Tierra no podemos ver a la Tierra como un “disco” planetario, pero sí efectos de su atmósfera y reflejos de su luz en otros cuerpos.",
+        "key_points": [
+            "No vemos a la Tierra como planeta desde suelo terrestre; observamos fenómenos asociados (crepúsculos, contaminación lumínica, nubes altas).",
+            "Luz cenicienta: brillo tenue en la parte oscura de la Luna causado por la luz reflejada de la Tierra.",
+            "Cinturón de Venus y banda anticrepuscular: colores atmosféricos visibles tras el atardecer y antes del amanecer.",
+            "Satélites y la ISS: objetos artificiales en órbita terrestre visibles a simple vista al anochecer/amanecer.",
+            "En Perú, miradores costeros (Malecón de Miraflores/Barranco) y zonas oscuras del interior permiten apreciar mejor estos efectos."
+        ],
+        "safety": [
+            "Nunca mires cerca del Sol con óptica sin filtro certificado ISO 12312-2.",
+            "Evita apuntar binoculares/telescopio si el Sol está sobre el horizonte sin protección adecuada."
+        ]
+    },
+    {
+        "planet_code": "399",
+        "id": "edu_earth_002",
+        "type": "interactive",
+        "title": "Mini-reto: Captura la luz cenicienta de la Luna",
+        "difficulty": "beginner",
+        "duration_minutes": 12,
+        "topics": [
+            "earth",
+            "moon",
+            "earthshine",
+            "planning"
+        ],
+        "description": "Actividad para observar y registrar la luz cenicienta (earthshine), un reflejo de la luz de la Tierra sobre la Luna.",
+        "activity_type": "checklist",
+        "steps": [
+            "Elige 2–4 días después de Luna nueva (al atardecer, mirando al OESTE) o 2–4 días antes de Luna nueva (al amanecer, mirando al ESTE).",
+            "Busca un horizonte despejado; en la costa peruana los miradores al mar funcionan muy bien.",
+            "A simple vista identifica el fino “crespón” iluminado de la Luna y nota el tenue brillo del resto del disco.",
+            "Con binoculares (opcional) aprecia mejor el contorno completo y anota color y brillo percibidos.",
+            "Registra fecha, hora, lugar y condiciones (nubosidad, transparencia) y repite otra noche para comparar."
+        ],
+        "safety": [
+            "Si haces la sesión cerca del amanecer/atardecer, asegúrate de no usar óptica apuntando hacia el Sol sin filtros certificados."
+        ]
+    }
+]

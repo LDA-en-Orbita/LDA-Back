@@ -1,0 +1,92 @@
+[
+    {
+        "id": "tip_001",
+        "category": "planeta_interior",
+        "title": "Observando Mercurio y Venus",
+        "difficulty": "moderado",
+        "description": "Los planetas interiores solo son visibles cerca del horizonte al amanecer o atardecer",
+        "best_practices": [
+            "Buscar horizonte despejado (oeste para atardecer, este para amanecer)",
+            "Venus es muy brillante y fácil de identificar",
+            "Mercurio requiere cielos muy claros",
+            "Mejor en marzo-abril y octubre-noviembre",
+            "Usar binoculares para Mercurio"
+        ],
+        "location_recommendations": [
+            "Costa peruana (horizonte marino despejado)",
+            "Playas alejadas de Lima",
+            "Malecón de Miraflores o Barranco"
+        ]
+    },
+    {
+        "id": "tip_002",
+        "category": "planeta_exterior",
+        "title": "Observando los Gigantes Gaseosos",
+        "difficulty": "fácil",
+        "description": "Júpiter y Saturno son fáciles de observar y espectaculares con telescopio",
+        "best_practices": [
+            "Júpiter: buscar punto muy brillante, no titila como estrellas",
+            "Saturno: color amarillento, magnitud similar a estrellas brillantes",
+            "Con binoculares se ven las 4 lunas galileanas de Júpiter",
+            "Con telescopio pequeño (70mm+) se ven anillos de Saturno",
+            "Mejor durante oposiciones (cuando están más cerca)",
+            "Observar en noches sin nubes y Luna"
+        ],
+        "location_recommendations": [
+            "Cualquier sitio alejado de luces urbanas",
+            "Observatorios en Arequipa",
+            "Valle del Colca",
+            "Desierto de Nazca"
+        ]
+    },
+    {
+        "id": "tip_003",
+        "category": "condiciones_peru",
+        "title": "Ventajas de Observar desde Perú",
+        "difficulty": "general",
+        "description": "Perú ofrece excelentes condiciones para astronomía",
+        "advantages": [
+            "Hemisferio Sur: acceso a objetos no visibles desde hemisferio norte",
+            "Costa con cielos despejados (especialmente invierno: mayo-septiembre)",
+            "Andes con altitud elevada y aire claro",
+            "Desiertos con mínima contaminación lumínica",
+            "Proximidad a ecuador permite ver objetos de ambos hemisferios"
+        ],
+        "best_locations": [
+            {
+                "name": "Desierto de Atacama (frontera sur)",
+                "conditions": "Uno de los mejores cielos del mundo",
+                "bortle_scale": 1
+            },
+            {
+                "name": "Colca, Arequipa",
+                "conditions": "Altitud, aire seco, cielos oscuros",
+                "bortle_scale": 2
+            },
+            {
+                "name": "Nazca, Ica",
+                "conditions": "Cielos despejados todo el año",
+                "bortle_scale": 2
+            },
+            {
+                "name": "Cordillera Blanca, Áncash",
+                "conditions": "Gran altitud, vistas espectaculares",
+                "bortle_scale": 2
+            }
+        ]
+    },
+    {
+        "id": "tip_004",
+        "category": "safety",
+        "title": "Seguridad en Observación",
+        "difficulty": "crítico",
+        "description": "Reglas fundamentales de seguridad",
+        "safety_rules": [
+            "NUNCA observar el Sol directamente sin filtro solar certificado ISO 12312-2",
+            "Telescopios y binoculares sin filtro pueden causar ceguera instantánea",
+            "Durante eclipses solares, usar gafas especiales todo el tiempo",
+            "Los filtros solares caseros NO son seguros",
+            "Planetas y Luna son seguros de observar en cualquier momento"
+        ]
+    }
+]

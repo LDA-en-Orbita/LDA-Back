@@ -1,0 +1,76 @@
+[
+    {
+        "planet_code": "499",
+        "id": "edu_mars_001",
+        "type": "guide",
+        "title": "Marte 101: ¿por qué es tan especial?",
+        "difficulty": "beginner",
+        "duration_minutes": 12,
+        "topics": [
+            "mars",
+            "astrobiology",
+            "planetary_geology",
+            "atmosphere"
+        ],
+        "description": "Panorama esencial de Marte: su clima, geología y por qué es un objetivo clave en la búsqueda de vida.",
+        "key_points": [
+            "Marte es un mundo desértico y frío, con atmósfera muy tenue (principalmente CO₂).",
+            "Evidencia de agua pasada: valles, deltas y minerales hidratados.",
+            "Estaciones marcadas y tormentas de polvo globales.",
+            "Dos lunas pequeñas: Fobos y Deimos.",
+            "Interés astrobiológico: habitabilidad pasada y búsqueda de bioseñales."
+        ]
+    },
+    {
+        "planet_code": "499",
+        "id": "edu_mars_002",
+        "type": "guide",
+        "title": "Misiones a Marte: de los orbitadores a los rovers",
+        "difficulty": "beginner",
+        "duration_minutes": 15,
+        "topics": [
+            "mars",
+            "space_missions",
+            "rovers",
+            "science_goals"
+        ],
+        "description": "Qué hace cada tipo de misión marciana y qué hemos aprendido.",
+        "key_points": [
+            "Orbitadores: cartografían la superficie y estudian clima y atmósfera.",
+            "Aterrizadores y rovers: analizan rocas, suelos y posibles señales de vida pasada.",
+            "Ejemplos de hallazgos: compuestos orgánicos, patrones sedimentarios, variaciones estacionales de metano.",
+            "Preparación para futuras misiones de retorno de muestras y, a largo plazo, tripuladas."
+        ]
+    },
+    {
+        "planet_code": "499",
+        "id": "edu_mars_003",
+        "type": "interactive",
+        "title": "Planifica tu observación de Marte en oposición",
+        "difficulty": "beginner",
+        "duration_minutes": 20,
+        "topics": [
+            "mars",
+            "opposition",
+            "observing_tips",
+            "retrograde_motion"
+        ],
+        "description": "Actividad para aprender cuándo Marte se ve mejor desde la Tierra y cómo identificar su movimiento retrógrado.",
+        "activity_type": "planner",
+        "materials": [
+            "Calendario anual",
+            "Aplicación de planetario (opcional)",
+            "Bitácora de observación"
+        ],
+        "steps": [
+            "Marca la próxima ‘oposición’ de Marte (cuando está opuesto al Sol en el cielo): es cuando aparece más grande y brillante.",
+            "Una vez por semana, anota la posición de Marte respecto a constelaciones de fondo.",
+            "Observa el tramo de ‘movimiento retrógrado’: parecerá desplazarse hacia atrás por unas semanas.",
+            "Durante la oposición, intenta usar binoculares o telescopio pequeño (70–100 mm) para notar el color rojizo y, si el seeing ayuda, casquetes polares."
+        ],
+        "tips": [
+            "Mejor observar cuando esté alto sobre el horizonte para reducir turbulencia.",
+            "Evita noches con Luna brillante y busca cielos despejados."
+        ]
+    }
+]
