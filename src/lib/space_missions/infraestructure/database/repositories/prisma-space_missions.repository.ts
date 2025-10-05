@@ -16,7 +16,16 @@ export class PrismaSpaceMissionsRepository implements SpaceMissionsRepository {
     }
 
     async getByPlanet(code: CodePlanetsEnums): Promise<any> {
-        return this.reader.readById(code);
+        const all = await this.reader.readById(code);
+        const sorted = all.slice().sort(
+            buildComparator({
+                key: "launch_date",
+                type: "date",
+                dir: "desc",
+                nulls: "last",
+            })
+        );
+        return sorted;
     }
 
     async getAll<T>(page: PaginationParams): Promise<PaginationResponse<T>> {
