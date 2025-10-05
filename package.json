@@ -83,7 +83,7 @@
         "yaml": "2.7.0"
     },
     "_moduleAliases": {
-        "@shared": "dist/lib/shared",
-        "@planets": "dist/lib/planets"
+        "@shared": "dist/src/lib/shared",
+        "@planets": "dist/src/lib/planets"
     }
 }
