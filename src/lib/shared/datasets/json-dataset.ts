@@ -59,40 +59,32 @@ export class JsonDatasetReader<ID extends string = string> {
         }
     }
 
+    private toArray<X>(v: X | X[]): X[] {
+        return Array.isArray(v) ? v : [v];
+    }
+
     async readMany<T = any>(
         ids: readonly ID[],
         strict = false
-    ): Promise<Record<ID, Awaited<T>>> {
+    ): Promise<Awaited<T>[]> {
         if (strict) {
-            await Promise.all(
-                ids.map(async (id) => {
-                    await fs.access(this.pathFor(id));
-                })
+            await Promise.all(ids.map((id) => fs.access(this.pathFor(id))));
+            const chunks = await Promise.all(
+                ids.map((id) => this.readById<T | T[]>(id))
             );
-            const entries = await Promise.all(
-                ids.map(async (id) => {
-                    const val = await this.readById<T>(id);
-                    return [id, val] as const;
-                })
-            );
-            return Object.fromEntries(entries) as Record<ID, Awaited<T>>;
+            return chunks.flatMap((c) => this.toArray<Awaited<T>>(c as any));
         }
 
         const results = await Promise.allSettled(
-            ids.map(async (id) => {
-                const val = await this.readById<T>(id);
-                return [id, val] as const;
-            })
+            ids.map((id) => this.readById<T | T[]>(id))
         );
 
-        const ok = results
+        return results
             .filter(
-                (r): r is PromiseFulfilledResult<readonly [ID, Awaited<T>]> =>
+                (r): r is PromiseFulfilledResult<Awaited<T> | Awaited<T>[]> =>
                     r.status === "fulfilled"
             )
-            .map((r) => r.value);
-
-        return Object.fromEntries(ok) as Record<ID, Awaited<T>>;
+            .flatMap((r) => this.toArray<Awaited<T>>(r.value as any));
     }
 
     async listIdsFromFs(): Promise<ID[]> {

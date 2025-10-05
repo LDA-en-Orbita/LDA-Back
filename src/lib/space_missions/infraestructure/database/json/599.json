@@ -1,99 +1,132 @@
 [
     {
-      "id": "juno",
-      "name": "Juno",
-      "name_es": "Juno",
-      "mission_type": "orbiter",
-      "target_body": "cb_jupiter",
-      "agency": "NASA",
-      "launch_date": "2011-08-05",
-      "arrival_date": "2016-07-04",
-      "mission_end_date": null,
-      "status": "active",
-      "current_status_description": "En órbita polar alrededor de Júpiter, misión extendida hasta 2025",
-      "mission_duration": { "planned_years": 5, "current_years": 9.2 },
-      "achievements": [
-        { "year": 2016, "description": "Entró en órbita polar alrededor de Júpiter", "significance": "Primera nave en órbita polar joviana" },
-        { "year": 2017, "description": "Reveló estructura interna de Júpiter", "significance": "Descubrimiento de núcleo difuso y diluido" },
-        { "year": "2017-presente", "description": "Imágenes detalladas de polos jovianos y auroras", "significance": "Primeras vistas de los polos de Júpiter" },
-        { "year": "2021-presente", "description": "Sobrevuelos cercanos de las lunas galileanas", "significance": "Estudio detallado de Ganímedes, Europa e Ío" }
-      ],
-      "scientific_objectives": [
-        "Determinar estructura interna de Júpiter",
-        "Mapear campo magnético",
-        "Medir composición atmosférica",
-        "Estudiar auroras jovianas",
-        "Investigar origen y evolución del planeta",
-        "Explorar lunas galileanas"
-      ],
-      "key_instruments": [
-        "JunoCam (cámara de luz visible)",
-        "Magnetómetro",
-        "JIRAM (espectrómetro infrarrojo)",
-        "Radiómetro de microondas",
-        "Detector de partículas energéticas",
-        "Detector de ondas de radio y plasma"
-      ],
-      "mission_highlights": [
-        "Órbitas altamente elípticas (53 días cada una)",
-        "Imágenes públicas procesadas por ciudadanos científicos",
-        "Descubrió tormentas masivas en los polos",
-        "Mediciones precisas del campo gravitacional",
-        "Sobrevuelo de Ganímedes (2021), Europa (2022), Ío (2023-2024)"
-      ],
-      "description": "Misión que revela los secretos del interior de Júpiter y su sistema de lunas",
-      "official_url": "https://science.nasa.gov/mission/juno/",
-      "images": [],
-      "related_bodies": ["cb_jupiter"]
+        "planet_code": "599",
+        "id": "juno",
+        "name": "Juno",
+        "name_es": "Juno",
+        "mission_type": "orbiter",
+        "target_body": "cb_jupiter",
+        "agency": "NASA",
+        "launch_date": "2011-08-05",
+        "arrival_date": "2016-07-04",
+        "mission_end_date": null,
+        "status": "active",
+        "current_status_description": "En órbita polar alrededor de Júpiter, misión extendida hasta 2025",
+        "mission_duration": {
+            "planned_years": 5,
+            "current_years": 9.2
+        },
+        "achievements": [
+            {
+                "year": 2016,
+                "description": "Entró en órbita polar alrededor de Júpiter",
+                "significance": "Primera nave en órbita polar joviana"
+            },
+            {
+                "year": 2017,
+                "description": "Reveló estructura interna de Júpiter",
+                "significance": "Descubrimiento de núcleo difuso y diluido"
+            },
+            {
+                "year": "2017-presente",
+                "description": "Imágenes detalladas de polos jovianos y auroras",
+                "significance": "Primeras vistas de los polos de Júpiter"
+            },
+            {
+                "year": "2021-presente",
+                "description": "Sobrevuelos cercanos de las lunas galileanas",
+                "significance": "Estudio detallado de Ganímedes, Europa e Ío"
+            }
+        ],
+        "scientific_objectives": [
+            "Determinar estructura interna de Júpiter",
+            "Mapear campo magnético",
+            "Medir composición atmosférica",
+            "Estudiar auroras jovianas",
+            "Investigar origen y evolución del planeta",
+            "Explorar lunas galileanas"
+        ],
+        "key_instruments": [
+            "JunoCam (cámara de luz visible)",
+            "Magnetómetro",
+            "JIRAM (espectrómetro infrarrojo)",
+            "Radiómetro de microondas",
+            "Detector de partículas energéticas",
+            "Detector de ondas de radio y plasma"
+        ],
+        "mission_highlights": [
+            "Órbitas altamente elípticas (53 días cada una)",
+            "Imágenes públicas procesadas por ciudadanos científicos",
+            "Descubrió tormentas masivas en los polos",
+            "Mediciones precisas del campo gravitacional",
+            "Sobrevuelo de Ganímedes (2021), Europa (2022), Ío (2023-2024)"
+        ],
+        "description": "Misión que revela los secretos del interior de Júpiter y su sistema de lunas",
+        "official_url": "https://science.nasa.gov/mission/juno/",
+        "images": [],
+        "related_bodies": [
+            "cb_jupiter"
+        ]
     },
     {
-      "id": "europa_clipper",
-      "name": "Europa Clipper",
-      "name_es": "Europa Clipper",
-      "mission_type": "orbiter",
-      "target_body": "cb_jupiter",
-      "primary_target": "Europa (luna de Júpiter)",
-      "agency": "NASA",
-      "launch_date": "2024-10-14",
-      "arrival_date": "2030-04-11",
-      "mission_end_date": null,
-      "status": "en_transito",
-      "current_status_description": "En camino a Júpiter, llegará en 2030",
-      "mission_duration": { "planned_years": 4, "cruise_years": 5.5 },
-      "trajectory": {
-        "gravity_assists": [
-          { "planet": "Marte", "date": "2025-03-01" },
-          { "planet": "Tierra", "date": "2026-12-03" }
+        "planet_code": "599",
+        "id": "europa_clipper",
+        "name": "Europa Clipper",
+        "name_es": "Europa Clipper",
+        "mission_type": "orbiter",
+        "target_body": "cb_jupiter",
+        "primary_target": "Europa (luna de Júpiter)",
+        "agency": "NASA",
+        "launch_date": "2024-10-14",
+        "arrival_date": "2030-04-11",
+        "mission_end_date": null,
+        "status": "en_transito",
+        "current_status_description": "En camino a Júpiter, llegará en 2030",
+        "mission_duration": {
+            "planned_years": 4,
+            "cruise_years": 5.5
+        },
+        "trajectory": {
+            "gravity_assists": [
+                {
+                    "planet": "Marte",
+                    "date": "2025-03-01"
+                },
+                {
+                    "planet": "Tierra",
+                    "date": "2026-12-03"
+                }
+            ]
+        },
+        "scientific_objectives": [
+            "Determinar grosor de la capa de hielo",
+            "Investigar océano subterráneo",
+            "Caracterizar composición superficial",
+            "Estudiar geología y actividad tectónica",
+            "Buscar lugares de actividad reciente",
+            "Evaluar habitabilidad"
+        ],
+        "key_instruments": [
+            "Cámaras de alta resolución",
+            "Espectrómetros (visible, infrarrojo, UV)",
+            "Magnetómetro",
+            "Radar de penetración de hielo (REASON)",
+            "Analizador de polvo",
+            "Detector de partículas",
+            "Radiómetro térmico"
+        ],
+        "mission_highlights": [
+            "49 sobrevuelos cercanos de Europa planeados",
+            "Altitud mínima: 25 km sobre la superficie",
+            "Misión más grande de NASA para luna planetaria",
+            "Investigará posible habitabilidad del océano",
+            "Analizará posibles plumas de agua"
+        ],
+        "description": "Misión diseñada para determinar si Europa podría albergar condiciones adecuadas para la vida",
+        "official_url": "https://science.nasa.gov/mission/europa-clipper/",
+        "images": [],
+        "related_bodies": [
+            "cb_jupiter"
         ]
-      },
-      "scientific_objectives": [
-        "Determinar grosor de la capa de hielo",
-        "Investigar océano subterráneo",
-        "Caracterizar composición superficial",
-        "Estudiar geología y actividad tectónica",
-        "Buscar lugares de actividad reciente",
-        "Evaluar habitabilidad"
-      ],
-      "key_instruments": [
-        "Cámaras de alta resolución",
-        "Espectrómetros (visible, infrarrojo, UV)",
-        "Magnetómetro",
-        "Radar de penetración de hielo (REASON)",
-        "Analizador de polvo",
-        "Detector de partículas",
-        "Radiómetro térmico"
-      ],
-      "mission_highlights": [
-        "49 sobrevuelos cercanos de Europa planeados",
-        "Altitud mínima: 25 km sobre la superficie",
-        "Misión más grande de NASA para luna planetaria",
-        "Investigará posible habitabilidad del océano",
-        "Analizará posibles plumas de agua"
-      ],
-      "description": "Misión diseñada para determinar si Europa podría albergar condiciones adecuadas para la vida",
-      "official_url": "https://science.nasa.gov/mission/europa-clipper/",
-      "images": [],
-      "related_bodies": ["cb_jupiter"]
     }
 ]
-

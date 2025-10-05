@@ -1,62 +1,64 @@
 [
     {
-      "id": "messenger",
-      "name": "MESSENGER",
-      "name_es": "Messenger",
-      "full_name": "Mercury Surface, Space ENvironment, GEochemistry, and Ranging",
-      "mission_type": "orbiter",
-      "target_body": "cb_mercury",
-      "agency": "NASA",
-      "launch_date": "2004-08-03",
-      "arrival_date": "2011-03-18",
-      "mission_end_date": "2015-04-30",
-      "status": "completed",
-      "current_status_description": "Impactó la superficie de Mercurio en 2015",
-      "mission_duration": {
-        "total_years": 10.7,
-        "orbital_years": 4.1
-      },
-      "achievements": [
-        {
-          "year": 2011,
-          "description": "Primera nave en orbitar Mercurio",
-          "significance": "Hito histórico en exploración planetaria"
+        "planet_code": "199",
+        "id": "messenger",
+        "name": "MESSENGER",
+        "name_es": "Messenger",
+        "full_name": "Mercury Surface, Space ENvironment, GEochemistry, and Ranging",
+        "mission_type": "orbiter",
+        "target_body": "cb_mercury",
+        "agency": "NASA",
+        "launch_date": "2004-08-03",
+        "arrival_date": "2011-03-18",
+        "mission_end_date": "2015-04-30",
+        "status": "completed",
+        "current_status_description": "Impactó la superficie de Mercurio en 2015",
+        "mission_duration": {
+            "total_years": 10.7,
+            "orbital_years": 4.1
         },
-        {
-          "year": "2011-2015",
-          "description": "Cartografió completamente la superficie de Mercurio",
-          "significance": "Mapeo completo del planeta"
-        },
-        {
-          "year": 2012,
-          "description": "Descubrió hielo de agua en cráteres polares",
-          "significance": "Hallazgo inesperado en el planeta más cercano al Sol"
-        }
-      ],
-      "scientific_objectives": [
-        "Mapear la composición química de la superficie",
-        "Estudiar la geología y topografía",
-        "Caracterizar el campo magnético",
-        "Determinar la estructura del núcleo",
-        "Investigar la exósfera"
-      ],
-      "key_instruments": [
-        "MDIS (cámaras de imagen)",
-        "GRNS (espectrómetro de rayos gamma y neutrones)",
-        "XRS (espectrómetro de rayos X)",
-        "MAG (magnetómetro)",
-        "MLA (altímetro láser)"
-      ],
-      "mission_highlights": [
-        "Más de 270,000 imágenes capturadas",
-        "Confirmó la existencia de hielo en los polos",
-        "Reveló actividad volcánica pasada extensa",
-        "Descubrió que el núcleo de hierro es más grande de lo estimado"
-      ],
-      "description": "Primera misión en orbitar Mercurio, revolucionó nuestra comprensión del planeta más interno",
-      "official_url": "https://science.nasa.gov/mission/messenger/",
-      "images": [],
-      "related_bodies": ["cb_mercury"]
+        "achievements": [
+            {
+                "year": 2011,
+                "description": "Primera nave en orbitar Mercurio",
+                "significance": "Hito histórico en exploración planetaria"
+            },
+            {
+                "year": "2011-2015",
+                "description": "Cartografió completamente la superficie de Mercurio",
+                "significance": "Mapeo completo del planeta"
+            },
+            {
+                "year": 2012,
+                "description": "Descubrió hielo de agua en cráteres polares",
+                "significance": "Hallazgo inesperado en el planeta más cercano al Sol"
+            }
+        ],
+        "scientific_objectives": [
+            "Mapear la composición química de la superficie",
+            "Estudiar la geología y topografía",
+            "Caracterizar el campo magnético",
+            "Determinar la estructura del núcleo",
+            "Investigar la exósfera"
+        ],
+        "key_instruments": [
+            "MDIS (cámaras de imagen)",
+            "GRNS (espectrómetro de rayos gamma y neutrones)",
+            "XRS (espectrómetro de rayos X)",
+            "MAG (magnetómetro)",
+            "MLA (altímetro láser)"
+        ],
+        "mission_highlights": [
+            "Más de 270,000 imágenes capturadas",
+            "Confirmó la existencia de hielo en los polos",
+            "Reveló actividad volcánica pasada extensa",
+            "Descubrió que el núcleo de hierro es más grande de lo estimado"
+        ],
+        "description": "Primera misión en orbitar Mercurio, revolucionó nuestra comprensión del planeta más interno",
+        "official_url": "https://science.nasa.gov/mission/messenger/",
+        "images": [],
+        "related_bodies": [
+            "cb_mercury"
+        ]
     }
 ]
-
