@@ -19,8 +19,8 @@ RUN npm pkg delete scripts.prepare && \
 FROM base AS builder
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
-RUN npm run build && \
-    npm ci --omit=dev
+RUN npm run build
+RUN npm ci --omit=dev
 
 FROM base AS runner
 COPY --from=builder --chown=nodeuser:nodejs /app/dist ./dist
