@@ -13,6 +13,8 @@ const environmentSchema = z.object({
         .transform((val) => Number.parseInt(val, 10))
         .default("3000"),
     ENV: toLower.default("dev"),
+    OPENAI_API_KEY: z.string(),
+    HOST_NASA_IMAGE: z.string(),
 });
 
 export const config = environmentSchema.parse(process.env);

@@ -1,0 +1,60 @@
+[
+    {
+        "planet_code": "599",
+        "id": "edu_jupiter_001",
+        "type": "guide",
+        "title": "Introducción a Júpiter mediante misiones espaciales",
+        "difficulty": "beginner",
+        "duration_minutes": 15,
+        "topics": [
+            "space_missions",
+            "exploration_history"
+        ],
+        "description": "Cómo las misiones espaciales estudian Júpiter y su entorno usando los mismos principios generales.",
+        "key_points": [
+            "Tipos de misiones aplicados a Júpiter: sobrevuelo, orbitador y, en su sistema, el estudio de lunas con enfoque de aterrizador/rover donde sea viable.",
+            "Comunicación con naves a grandes distancias usando la Deep Space Network.",
+            "El tiempo de viaje de la señal crece al estar más lejos del Sol y de la Tierra.",
+            "La exploración robótica permite estudiar atmósferas, anillos y lunas sin riesgo humano."
+        ]
+    },
+    {
+        "planet_code": "599",
+        "id": "edu_jupiter_002",
+        "type": "guide",
+        "title": "¿Por qué explorar Júpiter y sus lunas?",
+        "difficulty": "beginner",
+        "duration_minutes": 10,
+        "topics": [
+            "science_goals",
+            "astrobiology"
+        ],
+        "description": "Motivaciones científicas para investigar el planeta y sus satélites dentro del Sistema Solar.",
+        "key_points": [
+            "Búsqueda de vida: en el contexto general, las lunas heladas como Europa forman parte de los objetivos astrobiológicos.",
+            "Comprender el origen y evolución del Sistema Solar a través de los planetas gigantes.",
+            "Protección planetaria: caracterizar entornos y dinámicas del sistema joviano.",
+            "Recursos y conocimiento fundamental que guían la exploración futura."
+        ]
+    },
+    {
+        "planet_code": "599",
+        "id": "edu_jupiter_003",
+        "type": "interactive",
+        "title": "Escala: ubicando a Júpiter en el Sistema Solar",
+        "difficulty": "beginner",
+        "duration_minutes": 20,
+        "topics": [
+            "distances",
+            "scale"
+        ],
+        "description": "Actividad para razonar sobre la distancia de Júpiter usando los conceptos de la escala del Sistema Solar.",
+        "activity_type": "visualization",
+        "key_concepts": [
+            "Unidad Astronómica (AU) = 150 millones de km.",
+            "La luz tarda ~8 min 20 s del Sol a la Tierra; a mayores distancias, el tiempo aumenta.",
+            "Comparar mentalmente la posición de Júpiter con respecto a la Tierra dentro del modelo a escala.",
+            "Las distancias en el Sistema Solar son inmensas incluso con tecnología moderna."
+        ]
+    }
+]

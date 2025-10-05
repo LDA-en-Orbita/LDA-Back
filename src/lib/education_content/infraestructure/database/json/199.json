@@ -1,0 +1,49 @@
+[
+    {
+        "planet_code": "199",
+        "id": "edu_mercury_001",
+        "type": "guide",
+        "title": "Cómo observar Mercurio desde Perú",
+        "difficulty": "beginner",
+        "duration_minutes": 8,
+        "topics": [
+            "planets",
+            "mercury",
+            "observing_tips"
+        ],
+        "description": "Guía práctica para localizar Mercurio muy cerca del horizonte al amanecer o atardecer.",
+        "key_points": [
+            "Momento ideal: muy bajo en el horizonte — ESTE al amanecer, OESTE al atardecer",
+            "Mercurio es tenue: requiere cielos muy claros",
+            "Ventanas favorables típicas: marzo–abril y octubre–noviembre",
+            "Primero ubícalo con binoculares; luego intenta a simple vista",
+            "Sitios recomendados: costa peruana con horizonte marino despejado (playas alejadas de Lima, Malecón de Miraflores/Barranco)"
+        ],
+        "safety": [
+            "Nunca mires hacia el Sol sin filtro certificado ISO 12312-2",
+            "Evita apuntar binoculares/telescopio cerca del Sol si no tienes filtros adecuados"
+        ]
+    },
+    {
+        "planet_code": "199",
+        "id": "edu_mercury_002",
+        "type": "interactive",
+        "title": "Mini-reto: Caza a Mercurio",
+        "difficulty": "beginner",
+        "duration_minutes": 10,
+        "topics": [
+            "mercury",
+            "planning",
+            "horizon"
+        ],
+        "description": "Actividad breve para planificar y realizar una primera observación de Mercurio.",
+        "activity_type": "checklist",
+        "steps": [
+            "Elige un día con cielo despejado y horizonte marino libre",
+            "Ve al atardecer (oeste) o antes del amanecer (este) 30–45 min alrededor del crepúsculo",
+            "Escanea la franja baja del cielo con binoculares buscando un punto no titilante",
+            "Confirma: Mercurio cambia de posición rápidamente día a día; repite 2–3 días seguidos",
+            "Registra hora, brillo aparente y condiciones del horizonte"
+        ]
+    }
+]

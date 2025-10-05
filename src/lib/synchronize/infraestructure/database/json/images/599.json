@@ -1,0 +1,1029 @@
+{
+  "code": "599",
+  "nameEs": "Júpiter",
+  "data": {
+    "planet": "Jupiter",
+    "count": 97,
+    "keywordsIndex": {
+      "jupiter": 97,
+      "galileo": 24,
+      "juno": 17,
+      "voyager": 15,
+      "cassini huygens": 15,
+      "new horizons": 13,
+      "hubble space telescope": 9,
+      "junocam": 2,
+      "infrared telescope facility": 1,
+      "galileo hubble space telescope": 1,
+      "uvs": 1
+    },
+    "groups": {
+      "jupiter_voyager": [
+        {
+          "title": "Jupiter Plume",
+          "nasaId": "PIA01518",
+          "url": "https://images-assets.nasa.gov/image/PIA01518/PIA01518~thumb.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "voyager"
+          ]
+        },
+        {
+          "title": "Jupiter",
+          "nasaId": "PIA01324",
+          "url": "https://images-assets.nasa.gov/image/PIA01324/PIA01324~thumb.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "voyager"
+          ]
+        },
+        {
+          "title": "Jupiter from Voyager 2",
+          "nasaId": "PIA01369",
+          "url": "https://images-assets.nasa.gov/image/PIA01369/PIA01369~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "voyager"
+          ]
+        },
+        {
+          "title": "Jupiter Violent Storms",
+          "nasaId": "PIA01527",
+          "url": "https://images-assets.nasa.gov/image/PIA01527/PIA01527~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "voyager"
+          ]
+        },
+        {
+          "title": "Jupiter Great Red Spot",
+          "nasaId": "PIA01370",
+          "url": "https://images-assets.nasa.gov/image/PIA01370/PIA01370~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "voyager"
+          ]
+        },
+        {
+          "title": "Jupiter System Montage",
+          "nasaId": "PIA01481",
+          "url": "https://images-assets.nasa.gov/image/PIA01481/PIA01481~medium.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "voyager"
+          ]
+        },
+        {
+          "title": "Jupiter White Oval",
+          "nasaId": "PIA01521",
+          "url": "https://images-assets.nasa.gov/image/PIA01521/PIA01521~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "voyager"
+          ]
+        },
+        {
+          "title": "Jupiter with Satellites Io and Europa",
+          "nasaId": "PIA00144",
+          "url": "https://images-assets.nasa.gov/image/PIA00144/PIA00144~thumb.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "voyager"
+          ]
+        },
+        {
+          "title": "Jupiter",
+          "nasaId": "PIA00343",
+          "url": "https://images-assets.nasa.gov/image/PIA00343/PIA00343~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "voyager"
+          ]
+        },
+        {
+          "title": "Jupiter Equatorial Zone in Exaggerated Color",
+          "nasaId": "PIA01524",
+          "url": "https://images-assets.nasa.gov/image/PIA01524/PIA01524~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "voyager"
+          ]
+        },
+        {
+          "title": "Jupiter - Southeast of Great Red Spot",
+          "nasaId": "PIA01513",
+          "url": "https://images-assets.nasa.gov/image/PIA01513/PIA01513~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "voyager"
+          ]
+        },
+        {
+          "title": "Cylindrical Projection of Jupiter",
+          "nasaId": "PIA00011",
+          "url": "https://images-assets.nasa.gov/image/PIA00011/PIA00011~thumb.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "voyager"
+          ]
+        },
+        {
+          "title": "Jupiter with Io Crossing",
+          "nasaId": "PIA00455",
+          "url": "https://images-assets.nasa.gov/image/PIA00455/PIA00455~thumb.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "voyager"
+          ]
+        },
+        {
+          "title": "Jupiter and Three Galilean Satellites",
+          "nasaId": "PIA00358",
+          "url": "https://images-assets.nasa.gov/image/PIA00358/PIA00358~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "voyager"
+          ]
+        },
+        {
+          "title": "Jupiter Great Red Spot and White Ovals",
+          "nasaId": "PIA01512",
+          "url": "https://images-assets.nasa.gov/image/PIA01512/PIA01512~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "voyager"
+          ]
+        }
+      ],
+      "jupiter_new_horizons": [
+        {
+          "title": "Jupiter Ahoy!",
+          "nasaId": "PIA09231",
+          "url": "https://images-assets.nasa.gov/image/PIA09231/PIA09231~thumb.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "new horizons"
+          ]
+        },
+        {
+          "title": "A Day on Jupiter Animation",
+          "nasaId": "PIA09236",
+          "url": "https://images-assets.nasa.gov/image/PIA09236/PIA09236~thumb.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "new horizons"
+          ]
+        },
+        {
+          "title": "Moons around Jupiter",
+          "nasaId": "PIA09238",
+          "url": "https://images-assets.nasa.gov/image/PIA09238/PIA09238~thumb.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "new horizons"
+          ]
+        },
+        {
+          "title": "Jupiter Moons: Family Portrait",
+          "nasaId": "PIA09352",
+          "url": "https://images-assets.nasa.gov/image/PIA09352/PIA09352~medium.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "new horizons"
+          ]
+        },
+        {
+          "title": "On Approach: Jupiter and Io",
+          "nasaId": "PIA09235",
+          "url": "https://images-assets.nasa.gov/image/PIA09235/PIA09235~medium.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "new horizons"
+          ]
+        },
+        {
+          "title": "Jupiter High-Altitude Clouds",
+          "nasaId": "PIA09339",
+          "url": "https://images-assets.nasa.gov/image/PIA09339/PIA09339~medium.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "new horizons"
+          ]
+        },
+        {
+          "title": "Alice Views Jupiter and Io",
+          "nasaId": "PIA09252",
+          "url": "https://images-assets.nasa.gov/image/PIA09252/PIA09252~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "new horizons"
+          ]
+        },
+        {
+          "title": "Jupiter Atmospheric Map",
+          "nasaId": "PIA09241",
+          "url": "https://images-assets.nasa.gov/image/PIA09241/PIA09241~thumb.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "new horizons"
+          ]
+        },
+        {
+          "title": "Jupiter Rings: Sharpest View",
+          "nasaId": "PIA09342",
+          "url": "https://images-assets.nasa.gov/image/PIA09342/PIA09342~medium.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "new horizons"
+          ]
+        },
+        {
+          "title": "Full Jupiter Mosaic",
+          "nasaId": "PIA09243",
+          "url": "https://images-assets.nasa.gov/image/PIA09243/PIA09243~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "new horizons"
+          ]
+        },
+        {
+          "title": "Probing Storm Activity on Jupiter",
+          "nasaId": "PIA09340",
+          "url": "https://images-assets.nasa.gov/image/PIA09340/PIA09340~medium.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "new horizons"
+          ]
+        },
+        {
+          "title": "Two Moons Meet over Jupiter",
+          "nasaId": "PIA09256",
+          "url": "https://images-assets.nasa.gov/image/PIA09256/PIA09256~thumb.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "new horizons"
+          ]
+        },
+        {
+          "title": "A Moving Jupiter Global Map Animation",
+          "nasaId": "PIA09242",
+          "url": "https://images-assets.nasa.gov/image/PIA09242/PIA09242~thumb.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "new horizons"
+          ]
+        }
+      ],
+      "jupiter": [
+        {
+          "title": "Jupiter's Bands",
+          "nasaId": "PIA24818",
+          "url": "https://images-assets.nasa.gov/image/PIA24818/PIA24818~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter"
+          ]
+        },
+        {
+          "title": "Heating Up Jupiter's Atmosphere",
+          "nasaId": "PIA22775",
+          "url": "https://images-assets.nasa.gov/image/PIA22775/PIA22775~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter"
+          ]
+        }
+      ],
+      "jupiter_galileo": [
+        {
+          "title": "Time Series of Jupiter Aurora",
+          "nasaId": "PIA01601",
+          "url": "https://images-assets.nasa.gov/image/PIA01601/PIA01601~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "galileo"
+          ]
+        },
+        {
+          "title": "Jupiter Northern Auroral Oval",
+          "nasaId": "PIA01117",
+          "url": "https://images-assets.nasa.gov/image/PIA01117/PIA01117~thumb.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "galileo"
+          ]
+        },
+        {
+          "title": "Historic Merger of Storms on Jupiter",
+          "nasaId": "PIA01650",
+          "url": "https://images-assets.nasa.gov/image/PIA01650/PIA01650~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "galileo"
+          ]
+        },
+        {
+          "title": "Time Series of Jupiter Aurora",
+          "nasaId": "PIA01603",
+          "url": "https://images-assets.nasa.gov/image/PIA01603/PIA01603~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "galileo"
+          ]
+        },
+        {
+          "title": "Changing Lightning Storms on Jupiter",
+          "nasaId": "PIA01636",
+          "url": "https://images-assets.nasa.gov/image/PIA01636/PIA01636~thumb.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "galileo"
+          ]
+        },
+        {
+          "title": "Time Series of Jupiter Aurora",
+          "nasaId": "PIA01602",
+          "url": "https://images-assets.nasa.gov/image/PIA01602/PIA01602~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "galileo"
+          ]
+        },
+        {
+          "title": "Clouds and Hazes of Jupiter Southern Hemisphere",
+          "nasaId": "PIA02098",
+          "url": "https://images-assets.nasa.gov/image/PIA02098/PIA02098~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "galileo"
+          ]
+        },
+        {
+          "title": "Cloud Features North of Jupiter Equator",
+          "nasaId": "PIA02097",
+          "url": "https://images-assets.nasa.gov/image/PIA02097/PIA02097~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "galileo"
+          ]
+        },
+        {
+          "title": "Jupiter Temperatures--Broad Latitude",
+          "nasaId": "PIA00730",
+          "url": "https://images-assets.nasa.gov/image/PIA00730/PIA00730~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "galileo"
+          ]
+        },
+        {
+          "title": "Time Series of Jupiter Aurora",
+          "nasaId": "PIA01600",
+          "url": "https://images-assets.nasa.gov/image/PIA01600/PIA01600~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "galileo"
+          ]
+        },
+        {
+          "title": "Atmospheric Motion in Jupiter Northern Hemisphere",
+          "nasaId": "PIA03000",
+          "url": "https://images-assets.nasa.gov/image/PIA03000/PIA03000~medium.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "galileo"
+          ]
+        },
+        {
+          "title": "Jupiter Great Red Spot",
+          "nasaId": "PIA00296",
+          "url": "https://images-assets.nasa.gov/image/PIA00296/PIA00296~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "galileo"
+          ]
+        },
+        {
+          "title": "Jupiter Temperatures",
+          "nasaId": "PIA00732",
+          "url": "https://images-assets.nasa.gov/image/PIA00732/PIA00732~thumb.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "galileo"
+          ]
+        },
+        {
+          "title": "Using Methane Absorption to Probe Jupiter Atmosphere",
+          "nasaId": "PIA01114",
+          "url": "https://images-assets.nasa.gov/image/PIA01114/PIA01114~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "galileo"
+          ]
+        },
+        {
+          "title": "Turbulent Region Near Jupiter Great Red Spot",
+          "nasaId": "PIA01093",
+          "url": "https://images-assets.nasa.gov/image/PIA01093/PIA01093~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "galileo"
+          ]
+        },
+        {
+          "title": "False Color Mosaic of Jupiter Belt-Zone Boundary",
+          "nasaId": "PIA01116",
+          "url": "https://images-assets.nasa.gov/image/PIA01116/PIA01116~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "galileo"
+          ]
+        },
+        {
+          "title": "Three dimensional Visualization of Jupiter Equatorial Region",
+          "nasaId": "PIA01191",
+          "url": "https://images-assets.nasa.gov/image/PIA01191/PIA01191~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "galileo"
+          ]
+        },
+        {
+          "title": "Ammonia Ice near Jupiter Great Red Spot",
+          "nasaId": "PIA02569",
+          "url": "https://images-assets.nasa.gov/image/PIA02569/PIA02569~medium.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "galileo"
+          ]
+        },
+        {
+          "title": "Winds Near Jupiter Belt-Zone Boundary",
+          "nasaId": "PIA01113",
+          "url": "https://images-assets.nasa.gov/image/PIA01113/PIA01113~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "galileo"
+          ]
+        },
+        {
+          "title": "Three dimensional Visualization of Jupiter Equatorial Region",
+          "nasaId": "PIA01190",
+          "url": "https://images-assets.nasa.gov/image/PIA01190/PIA01190~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "galileo"
+          ]
+        },
+        {
+          "title": "Three dimensional Visualization of Jupiter Equatorial Region",
+          "nasaId": "PIA01192",
+          "url": "https://images-assets.nasa.gov/image/PIA01192/PIA01192~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "galileo"
+          ]
+        },
+        {
+          "title": "Three dimensional Visualization of Jupiter Equatorial Region",
+          "nasaId": "PIA01194",
+          "url": "https://images-assets.nasa.gov/image/PIA01194/PIA01194~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "galileo"
+          ]
+        },
+        {
+          "title": "Three dimensional Visualization of Jupiter Equatorial Region",
+          "nasaId": "PIA01189",
+          "url": "https://images-assets.nasa.gov/image/PIA01189/PIA01189~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "galileo"
+          ]
+        },
+        {
+          "title": "Three dimensional Visualization of Jupiter Equatorial Region",
+          "nasaId": "PIA01193",
+          "url": "https://images-assets.nasa.gov/image/PIA01193/PIA01193~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "galileo"
+          ]
+        }
+      ],
+      "jupiter_juno": [
+        {
+          "title": "Jupiter's Ring",
+          "nasaId": "PIA22963",
+          "url": "https://images-assets.nasa.gov/image/PIA22963/PIA22963~thumb.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "juno",
+            "jupiter"
+          ]
+        },
+        {
+          "title": "Vortices on Jupiter and Earth",
+          "nasaId": "PIA25037",
+          "url": "https://images-assets.nasa.gov/image/PIA25037/PIA25037~medium.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "juno",
+            "jupiter"
+          ]
+        },
+        {
+          "title": "Atmospheric Circulation Cells on Earth and Jupiter",
+          "nasaId": "PIA24965",
+          "url": "https://images-assets.nasa.gov/image/PIA24965/PIA24965~medium.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "juno",
+            "jupiter"
+          ]
+        },
+        {
+          "title": "Jets at Jupiter",
+          "nasaId": "PIA24964",
+          "url": "https://images-assets.nasa.gov/image/PIA24964/PIA24964~thumb.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "juno",
+            "jupiter"
+          ]
+        },
+        {
+          "title": "Jupiter Interior Graphic",
+          "nasaId": "PIA25062",
+          "url": "https://images-assets.nasa.gov/image/PIA25062/PIA25062~medium.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "juno",
+            "jupiter"
+          ]
+        },
+        {
+          "title": "A Hot Spot on Jupiter",
+          "nasaId": "PIA24299",
+          "url": "https://images-assets.nasa.gov/image/PIA24299/PIA24299~medium.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "juno",
+            "jupiter"
+          ]
+        },
+        {
+          "title": "Jupiter's Main Dust Ring",
+          "nasaId": "PIA25038",
+          "url": "https://images-assets.nasa.gov/image/PIA25038/PIA25038~thumb.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "juno",
+            "jupiter"
+          ]
+        },
+        {
+          "title": "Jupiter Marble",
+          "nasaId": "PIA22946",
+          "url": "https://images-assets.nasa.gov/image/PIA22946/PIA22946~medium.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "juno",
+            "jupiter"
+          ]
+        },
+        {
+          "title": "Jupiter's Pop-up Clouds",
+          "nasaId": "PIA24303",
+          "url": "https://images-assets.nasa.gov/image/PIA24303/PIA24303~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "juno",
+            "jupiter"
+          ]
+        },
+        {
+          "title": "Two Views of Jupiter Hot Spot",
+          "nasaId": "PIA24300",
+          "url": "https://images-assets.nasa.gov/image/PIA24300/PIA24300~medium.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "juno",
+            "jupiter"
+          ]
+        },
+        {
+          "title": "A View of Crescent Jupiter from Juno",
+          "nasaId": "PIA25013",
+          "url": "https://images-assets.nasa.gov/image/PIA25013/PIA25013~medium.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "juno",
+            "jupiter"
+          ]
+        },
+        {
+          "title": "Jupiter Swirling Storms",
+          "nasaId": "PIA24971",
+          "url": "https://images-assets.nasa.gov/image/PIA24971/PIA24971~medium.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "juno",
+            "jupiter"
+          ]
+        },
+        {
+          "title": "Dark Side Courtesy of Jupiter's Moon",
+          "nasaId": "PIA22964",
+          "url": "https://images-assets.nasa.gov/image/PIA22964/PIA22964~thumb.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "juno",
+            "jupiter"
+          ]
+        },
+        {
+          "title": "Jupiter With Io and Callisto",
+          "nasaId": "PIA25032",
+          "url": "https://images-assets.nasa.gov/image/PIA25032/PIA25032~medium.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "juno",
+            "jupiter"
+          ]
+        }
+      ],
+      "jupiter_hubble_space_telescope": [
+        {
+          "title": "Jupiter G Impact Evolution",
+          "nasaId": "PIA01263",
+          "url": "https://images-assets.nasa.gov/image/PIA01263/PIA01263~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "hubble space telescope"
+          ]
+        },
+        {
+          "title": "Oval Storms Merging on Jupiter",
+          "nasaId": "PIA02823",
+          "url": "https://images-assets.nasa.gov/image/PIA02823/PIA02823~thumb.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "hubble space telescope"
+          ]
+        },
+        {
+          "title": "Hubble Tracks Jupiter Storms",
+          "nasaId": "PIA01262",
+          "url": "https://images-assets.nasa.gov/image/PIA01262/PIA01262~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "hubble space telescope"
+          ]
+        },
+        {
+          "title": "Jupiter Eruptions",
+          "nasaId": "PIA10224",
+          "url": "https://images-assets.nasa.gov/image/PIA10224/PIA10224~medium.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "hubble space telescope"
+          ]
+        },
+        {
+          "title": "Rare Hubble Portrait of Io and Jupiter",
+          "nasaId": "PIA01258",
+          "url": "https://images-assets.nasa.gov/image/PIA01258/PIA01258~thumb.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "hubble space telescope"
+          ]
+        },
+        {
+          "title": "Hubble Gallery of Jupiter Galilean Satellites",
+          "nasaId": "PIA01261",
+          "url": "https://images-assets.nasa.gov/image/PIA01261/PIA01261~thumb.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "hubble space telescope"
+          ]
+        },
+        {
+          "title": "Hubble Images Reveal Jupiter Auroras",
+          "nasaId": "PIA01257",
+          "url": "https://images-assets.nasa.gov/image/PIA01257/PIA01257~medium.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "hubble space telescope"
+          ]
+        },
+        {
+          "title": "Satellite Footprints Seen in Jupiter Aurora",
+          "nasaId": "PIA03155",
+          "url": "https://images-assets.nasa.gov/image/PIA03155/PIA03155~thumb.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "hubble space telescope"
+          ]
+        },
+        {
+          "title": "Jupiter Wave",
+          "nasaId": "PIA19659",
+          "url": "https://images-assets.nasa.gov/image/PIA19659/PIA19659~thumb.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "hubble space telescope"
+          ]
+        }
+      ],
+      "jupiter_cassini_huygens": [
+        {
+          "title": "Jupiter Polar Winds Movie",
+          "nasaId": "PIA03452",
+          "url": "https://images-assets.nasa.gov/image/PIA03452/PIA03452~thumb.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "cassini huygens"
+          ]
+        },
+        {
+          "title": "Polarized Light from Jupiter",
+          "nasaId": "PIA02880",
+          "url": "https://images-assets.nasa.gov/image/PIA02880/PIA02880~thumb.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "cassini huygens"
+          ]
+        },
+        {
+          "title": "Jupiter in Color, by Cassini",
+          "nasaId": "PIA02972",
+          "url": "https://images-assets.nasa.gov/image/PIA02972/PIA02972~thumb.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "cassini huygens"
+          ]
+        },
+        {
+          "title": "A New Year for Jupiter and Io",
+          "nasaId": "PIA02879",
+          "url": "https://images-assets.nasa.gov/image/PIA02879/PIA02879~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "cassini huygens"
+          ]
+        },
+        {
+          "title": "Jupiter Magnetosphere Made Visible",
+          "nasaId": "PIA03476",
+          "url": "https://images-assets.nasa.gov/image/PIA03476/PIA03476~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "cassini huygens"
+          ]
+        },
+        {
+          "title": "Jupiter Torus Diagram",
+          "nasaId": "PIA04433",
+          "url": "https://images-assets.nasa.gov/image/PIA04433/PIA04433~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "cassini huygens"
+          ]
+        },
+        {
+          "title": "Inner Radiation Belts of Jupiter",
+          "nasaId": "PIA03478",
+          "url": "https://images-assets.nasa.gov/image/PIA03478/PIA03478~medium.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "cassini huygens"
+          ]
+        },
+        {
+          "title": "Io in Front of Jupiter",
+          "nasaId": "PIA02860",
+          "url": "https://images-assets.nasa.gov/image/PIA02860/PIA02860~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "cassini huygens"
+          ]
+        },
+        {
+          "title": "Jupiter and Europa in Near Infrared",
+          "nasaId": "PIA02826",
+          "url": "https://images-assets.nasa.gov/image/PIA02826/PIA02826~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "cassini huygens"
+          ]
+        },
+        {
+          "title": "Massive Gas Cloud Around Jupiter",
+          "nasaId": "PIA04432",
+          "url": "https://images-assets.nasa.gov/image/PIA04432/PIA04432~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "cassini huygens"
+          ]
+        },
+        {
+          "title": "Ultraviolet View Shows Jupiter Stratosphere",
+          "nasaId": "PIA03474",
+          "url": "https://images-assets.nasa.gov/image/PIA03474/PIA03474~thumb.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "cassini huygens"
+          ]
+        },
+        {
+          "title": "Ultraviolet Movie of Jupiter Polar Stratosphere",
+          "nasaId": "PIA03473",
+          "url": "https://images-assets.nasa.gov/image/PIA03473/PIA03473~thumb.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "cassini huygens"
+          ]
+        },
+        {
+          "title": "Jupiter Eye to Io",
+          "nasaId": "PIA02852",
+          "url": "https://images-assets.nasa.gov/image/PIA02852/PIA02852~thumb.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "cassini huygens"
+          ]
+        },
+        {
+          "title": "Jupiter Jet Stream",
+          "nasaId": "PIA15232",
+          "url": "https://images-assets.nasa.gov/image/PIA15232/PIA15232~medium.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "cassini huygens"
+          ]
+        },
+        {
+          "title": "High Resolution Globe of Jupiter",
+          "nasaId": "PIA02873",
+          "url": "https://images-assets.nasa.gov/image/PIA02873/PIA02873~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "cassini huygens"
+          ]
+        }
+      ],
+      "jupiter_infrared_telescope_facility": [
+        {
+          "title": "Eight Looks at the Jupiter Impact",
+          "nasaId": "PIA13762",
+          "url": "https://images-assets.nasa.gov/image/PIA13762/PIA13762~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "infrared telescope facility"
+          ]
+        }
+      ],
+      "jupiter_galileo_hubble_space_telescope": [
+        {
+          "title": "Jupiter White Ovals",
+          "nasaId": "PIA01477",
+          "url": "https://images-assets.nasa.gov/image/PIA01477/PIA01477~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "galileo hubble space telescope"
+          ]
+        }
+      ],
+      "jupiter_juno_junocam": [
+        {
+          "title": "The Edge of Jupiter",
+          "nasaId": "PIA21389",
+          "url": "https://images-assets.nasa.gov/image/PIA21389/PIA21389~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "juno",
+            "junocam"
+          ]
+        },
+        {
+          "title": "Speeding Towards Jupiter Pole",
+          "nasaId": "PIA20895",
+          "url": "https://images-assets.nasa.gov/image/PIA20895/PIA20895~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "jupiter",
+            "juno",
+            "junocam"
+          ]
+        }
+      ],
+      "jupiter_juno_uvs": [
+        {
+          "title": "Jupiter's Northern Lights",
+          "nasaId": "PIA21938",
+          "url": "https://images-assets.nasa.gov/image/PIA21938/PIA21938~thumb.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "juno",
+            "jupiter",
+            "uvs"
+          ]
+        }
+      ]
+    },
+    "groupsIndex": {
+      "jupiter_voyager": 15,
+      "jupiter_new_horizons": 13,
+      "jupiter": 2,
+      "jupiter_galileo": 24,
+      "jupiter_juno": 14,
+      "jupiter_hubble_space_telescope": 9,
+      "jupiter_cassini_huygens": 15,
+      "jupiter_infrared_telescope_facility": 1,
+      "jupiter_galileo_hubble_space_telescope": 1,
+      "jupiter_juno_junocam": 2,
+      "jupiter_juno_uvs": 1
+    }
+  }
+}

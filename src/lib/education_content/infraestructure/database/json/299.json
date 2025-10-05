@@ -1,0 +1,49 @@
+[
+    {
+        "planet_code": "299",
+        "id": "edu_venus_001",
+        "type": "guide",
+        "title": "Cómo observar Venus desde Perú",
+        "difficulty": "beginner",
+        "duration_minutes": 8,
+        "topics": [
+            "planets",
+            "venus",
+            "observing_tips"
+        ],
+        "description": "Venus es el astro más brillante del cielo después del Sol y la Luna. Suele verse muy bajo en el horizonte al amanecer (Este) o al atardecer (Oeste).",
+        "key_points": [
+            "Muy brillante y fácil de identificar: luce como “estrella” muy intensa que NO titila",
+            "Mejores momentos: crepúsculo — OESTE tras la puesta del Sol, ESTE antes del amanecer",
+            "Busca horizonte despejado (costa peruana y miradores al mar funcionan excelente)",
+            "Ideal para principiantes con vista a simple vista; con binoculares se aprecia su fase",
+            "Repite en varios días: su altura cambia con rapidez a lo largo de las semanas"
+        ],
+        "safety": [
+            "Nunca apuntes binoculares o telescopio cerca del Sol sin filtro certificado ISO 12312-2",
+            "Evita observarlo cuando el Sol esté sobre el horizonte sin protección adecuada"
+        ]
+    },
+    {
+        "planet_code": "299",
+        "id": "edu_venus_002",
+        "type": "interactive",
+        "title": "Mini-reto: Primeras fases de Venus",
+        "difficulty": "beginner",
+        "duration_minutes": 12,
+        "topics": [
+            "venus",
+            "phases",
+            "planning"
+        ],
+        "description": "Actividad para planificar y registrar la observación de las fases de Venus a lo largo de varias semanas.",
+        "activity_type": "checklist",
+        "steps": [
+            "Elige un punto con horizonte libre: playas alejadas de Lima, Malecón de Miraflores/Barranco",
+            "Observa 30–60 min tras la puesta del Sol (Oeste) o antes del amanecer (Este)",
+            "Identifica a Venus por su brillo intenso (no titila). Usa binoculares para sugerir su fase",
+            "Registra fecha, hora y altura aparente sobre el horizonte",
+            "Repite semanalmente 3–4 veces y compara cambios de brillo y tamaño aparente"
+        ]
+    }
+]

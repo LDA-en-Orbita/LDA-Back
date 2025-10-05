@@ -1,0 +1,60 @@
+[
+    {
+        "planet_code": "699",
+        "id": "edu_saturn_001",
+        "type": "guide",
+        "title": "Introducción a Saturno mediante misiones espaciales",
+        "difficulty": "beginner",
+        "duration_minutes": 15,
+        "topics": [
+            "space_missions",
+            "exploration_history"
+        ],
+        "description": "Cómo las misiones espaciales estudian Saturno y su entorno aplicando los principios generales de exploración.",
+        "key_points": [
+            "Tipos de misiones aplicados a Saturno: sobrevuelo y orbitador; en su sistema se investiga también a sus lunas con enfoques de aterrizador/rover cuando sea viable.",
+            "Las naves se comunican a grandes distancias usando la Deep Space Network.",
+            "El tiempo que tarda una señal en viajar aumenta a mayores distancias del Sol y de la Tierra.",
+            "La exploración robótica permite estudiar atmósferas, anillos y lunas sin riesgo humano."
+        ]
+    },
+    {
+        "planet_code": "699",
+        "id": "edu_saturn_002",
+        "type": "guide",
+        "title": "¿Por qué explorar Saturno y sus lunas?",
+        "difficulty": "beginner",
+        "duration_minutes": 10,
+        "topics": [
+            "science_goals",
+            "astrobiology"
+        ],
+        "description": "Motivaciones científicas para investigar el planeta y su sistema de satélites dentro del marco del Sistema Solar.",
+        "key_points": [
+            "Búsqueda de vida: dentro del enfoque general de astrobiología, Titán figura entre los objetivos de interés.",
+            "Comprender el origen y evolución del Sistema Solar a través del estudio de los planetas gigantes.",
+            "Protección planetaria y conocimiento de entornos complejos en sistemas con múltiples lunas.",
+            "Recursos y conocimiento fundamental que guían la exploración futura."
+        ]
+    },
+    {
+        "planet_code": "699",
+        "id": "edu_saturn_003",
+        "type": "interactive",
+        "title": "Escala: ubicando a Saturno en el Sistema Solar",
+        "difficulty": "beginner",
+        "duration_minutes": 20,
+        "topics": [
+            "distances",
+            "scale"
+        ],
+        "description": "Actividad para razonar sobre la distancia de Saturno usando los conceptos de escala del Sistema Solar.",
+        "activity_type": "visualization",
+        "key_concepts": [
+            "Unidad Astronómica (AU) = 150 millones de km.",
+            "La luz tarda ~8 min 20 s del Sol a la Tierra; a mayores distancias, el tiempo aumenta.",
+            "Comparar mentalmente la posición de Saturno con respecto a la Tierra dentro del modelo a escala.",
+            "Las distancias en el Sistema Solar son inmensas incluso con tecnología moderna."
+        ]
+    }
+]

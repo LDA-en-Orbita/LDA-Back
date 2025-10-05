@@ -1,0 +1,60 @@
+[
+    {
+        "planet_code": "999",
+        "id": "edu_pluto_001",
+        "type": "guide",
+        "title": "Introducción a las Misiones Espaciales: Plutón",
+        "difficulty": "beginner",
+        "duration_minutes": 15,
+        "topics": [
+            "space_missions",
+            "exploration_history"
+        ],
+        "description": "Cómo las misiones espaciales estudian Plutón aplicando principios generales de exploración.",
+        "key_points": [
+            "Tipos de misiones: sobrevuelo, orbitador, aterrizador, rover (según objetivos y entorno).",
+            "Las naves se comunican mediante la Deep Space Network.",
+            "El tiempo que tarda una señal en viajar aumenta con la distancia.",
+            "La exploración robótica permite estudiar superficies, atmósferas y lunas sin riesgo humano."
+        ]
+    },
+    {
+        "planet_code": "999",
+        "id": "edu_pluto_002",
+        "type": "guide",
+        "title": "¿Por qué Explorar Plutón?",
+        "difficulty": "beginner",
+        "duration_minutes": 10,
+        "topics": [
+            "science_goals",
+            "astrobiology"
+        ],
+        "description": "Motivaciones científicas generales para investigar Plutón dentro del Sistema Solar.",
+        "key_points": [
+            "Aporta a comprender el origen y evolución del Sistema Solar.",
+            "Permite comparar distintos tipos de cuerpos y sus lunas.",
+            "Contribuye a la protección planetaria y al estudio de objetos del entorno solar.",
+            "Genera conocimiento fundamental que guía la exploración futura."
+        ]
+    },
+    {
+        "planet_code": "999",
+        "id": "edu_pluto_003",
+        "type": "interactive",
+        "title": "Escala del Sistema Solar: ubicando a Plutón",
+        "difficulty": "beginner",
+        "duration_minutes": 20,
+        "topics": [
+            "distances",
+            "scale"
+        ],
+        "description": "Actividad para razonar sobre la distancia de Plutón usando conceptos de escala.",
+        "activity_type": "visualization",
+        "key_concepts": [
+            "Unidad Astronómica (AU) = 150 millones de km.",
+            "La luz tarda ~8 min 20 s del Sol a la Tierra; a mayores distancias, el tiempo aumenta.",
+            "Comparar mentalmente la posición de Plutón con respecto a la Tierra en un modelo a escala.",
+            "Las distancias en el Sistema Solar son inmensas incluso con tecnología moderna."
+        ]
+    }
+]
