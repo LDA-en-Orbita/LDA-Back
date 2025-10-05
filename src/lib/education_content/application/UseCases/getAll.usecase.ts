@@ -1,14 +1,14 @@
 import { PaginationParams } from "@shared/pagination/cursor/PaginationParams";
-import { SpaceMissionsRepository } from "../../domain/repositories/space_missions.repository";
 import { PaginationResponse } from "@shared/pagination/cursor/PaginationResponse";
+import { EducationContentRepository } from "../../domain/repositories/education-content.repository";
 
-export class getAllUseCase{
+export class getAllUseCase {
     constructor(
-        private readonly spaceMissionsRepository: SpaceMissionsRepository,
+        private readonly educationContentRepository: EducationContentRepository
     ) {}
 
     async execute(page: PaginationParams): Promise<PaginationResponse<any>> {
-        const data = await this.spaceMissionsRepository.getAll(page);
+        const data = await this.educationContentRepository.getAll(page);
         return data;
     }
 }
