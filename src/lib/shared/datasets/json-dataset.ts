@@ -1,8 +1,15 @@
 import path from "path";
 import { promises as fs } from "fs";
 import { APP_CATALOG, DatasetKey } from "@shared/config/constants";
+import { isProd } from "@config/Environment.config";
 
-const LIB_ROOT = path.resolve(process.cwd(), "src", "lib");
+function resolveLibRoot() {
+  const segments = [process.cwd()];
+  if (isProd) segments.push("dist");
+  segments.push("src", "lib");
+  return path.resolve(...segments);
+}
+const LIB_ROOT = resolveLibRoot();
 
 export function safeJoinFromLib(...segments: string[]) {
     const abs = path.resolve(LIB_ROOT, path.join(...segments));
