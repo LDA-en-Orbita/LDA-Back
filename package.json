@@ -7,7 +7,7 @@
         "check:fix": "biome check --write .",
         "start": "node dist/src/main.js",
         "prod": "npm run migrate:prod && npm run start",
-        "build": "tsc && tsc-alias",
+        "build": "tsc && tsc-alias && cpx src/lib/planets/infraestructure/database/json/* dist/src/lib/planets/infraestructure/database/json",
         "dev": "tsx --require tsconfig-paths/register --inspect --watch ./src/main.ts",
         "dev:docker": "docker compose -f docker-compose.test.yml up -d && sleep 3 && dotenv -e .env.test --  npm run migrate && dotenv -e .env.test -- tsx --inspect --watch ./src/main.ts",
         "tsc": "tsc"
