@@ -22,7 +22,10 @@ export class EducationContentController {
     }
     async getAll(req: Request, res: Response, next: NextFunction) {
         try {
-            const page = req.page as PaginationParams;
+            const page: PaginationParams = {
+                cursor: Number(req.query.cursor) || 1,
+                limit: Number(req.query.limit) || 10,
+            };
             const info = await withServicesTransaction(async (services) => {
                 return await services.educationContentService.getAll.execute(
                     page

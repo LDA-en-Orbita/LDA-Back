@@ -16,4 +16,10 @@ router.get(
     controller.getByCode
 )
 
+router.get(
+    '/:code/image',
+    ValidateCodeRequest,
+    // controller.getImagesByCode
+)
+
 export { router as planetRoutes };
