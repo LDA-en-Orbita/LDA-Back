@@ -1,14 +1,17 @@
 import { CodePlanetsEnums } from "@shared/enums/code-planets.enum";
 import { withServicesTransaction } from "@shared/infrastructure/transaction/TransactionHandler";
+import { PaginationParams } from "@shared/pagination/cursor/PaginationParams";
 import { Request, Response, NextFunction } from "express";
 import { StatusCodes } from "http-status-codes";
 
-export class PlanetsController {
-    async getByCode(req: Request, res: Response, next: NextFunction) {
+export class SpaceMissionsController {
+    async getByPlanet(req: Request, res: Response, next: NextFunction) {
         try {
             const code = req.params.code as CodePlanetsEnums;
             const info = await withServicesTransaction(async (services) => {
-                return await services.planetService.getByCode.execute(code);
+                return await services.spaceMissionsService.getByPlanet.execute(
+                    code
+                );
             });
             res.status(StatusCodes.OK).json({
                 data: info,
@@ -17,14 +20,15 @@ export class PlanetsController {
             next(error);
         }
     }
+
     async getAll(req: Request, res: Response, next: NextFunction) {
         try {
-            const info = await withServicesTransaction(async (services) => {
-                return await services.planetService.getAll.execute();
+            const page = req.page as PaginationParams;
+
+            const result = await withServicesTransaction(async (services) => {
+                return await services.spaceMissionsService.getAll.execute(page);
             });
-            res.status(StatusCodes.OK).json({
-                data: info,
-            });
+            res.status(StatusCodes.OK).json(result);
         } catch (error) {
             next(error);
         }

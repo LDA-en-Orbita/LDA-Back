@@ -1,0 +1,156 @@
+[
+    {
+        "planet_code": "499",
+        "id": "curiosity",
+        "name": "Curiosity",
+        "name_es": "Curiosity",
+        "full_name": "Mars Science Laboratory",
+        "mission_type": "rover",
+        "target_body": "cb_mars",
+        "agency": "NASA",
+        "launch_date": "2011-11-26",
+        "arrival_date": "2012-08-06",
+        "mission_end_date": null,
+        "status": "active",
+        "current_status_description": "Explorando activamente el cráter Gale en Marte",
+        "landing_site": {
+            "name": "Cráter Gale",
+            "latitude": -4.5895,
+            "longitude": 137.4417
+        },
+        "mission_duration": {
+            "planned_years": 2,
+            "current_years": 13.1
+        },
+        "achievements": [
+            {
+                "year": 2013,
+                "description": "Confirmó que Marte tuvo condiciones habitables en el pasado",
+                "significance": "Descubrimiento de antigua habitabilidad"
+            },
+            {
+                "year": 2014,
+                "description": "Detectó metano en la atmósfera marciana",
+                "significance": "Posible indicador de actividad biológica o geológica"
+            },
+            {
+                "year": "2012-presente",
+                "description": "Más de 13 años operando (superó vida útil planeada)",
+                "significance": "Misión de rover más larga en Marte"
+            }
+        ],
+        "scientific_objectives": [
+            "Buscar evidencias de agua pasada",
+            "Estudiar la habitabilidad de Marte",
+            "Analizar geología y mineralogía",
+            "Estudiar la atmósfera marciana",
+            "Caracterizar la radiación en superficie"
+        ],
+        "key_instruments": [
+            "ChemCam (espectrómetro láser)",
+            "SAM (laboratorio químico)",
+            "Mastcam (cámaras de alta resolución)",
+            "MAHLI (cámara microscópica)",
+            "DAN (detector de neutrones)",
+            "RAD (detector de radiación)"
+        ],
+        "mission_highlights": [
+            "Más de 450,000 imágenes tomadas",
+            "Recorridos de más de 31 km",
+            "42 perforaciones de roca completadas",
+            "Descubrimiento de compuestos orgánicos complejos",
+            "Selfies icónicas en Marte"
+        ],
+        "description": "Rover del tamaño de un automóvil que busca evidencias de habitabilidad pasada en Marte",
+        "official_url": "https://science.nasa.gov/mission/msl-curiosity/",
+        "images": [],
+        "related_bodies": [
+            "cb_mars"
+        ]
+    },
+    {
+        "planet_code": "499",
+        "id": "perseverance",
+        "name": "Perseverance",
+        "name_es": "Perseverance",
+        "full_name": "Mars 2020 Perseverance",
+        "mission_type": "rover",
+        "target_body": "cb_mars",
+        "agency": "NASA",
+        "launch_date": "2020-07-30",
+        "arrival_date": "2021-02-18",
+        "mission_end_date": null,
+        "status": "active",
+        "current_status_description": "Operando en el cráter Jezero, recolectando muestras",
+        "landing_site": {
+            "name": "Cráter Jezero",
+            "latitude": 18.4447,
+            "longitude": 77.4508,
+            "notable_feature": "Antiguo delta de río"
+        },
+        "mission_duration": {
+            "planned_years": 2,
+            "current_years": 4.6
+        },
+        "companion_vehicles": [
+            {
+                "name": "Ingenuity",
+                "type": "helicóptero",
+                "description": "Primer vehículo aéreo en otro planeta",
+                "status": "completado",
+                "achievements": "72 vuelos completados (planeados 5)"
+            }
+        ],
+        "achievements": [
+            {
+                "year": 2021,
+                "description": "Aterrizaje exitoso con tecnología de guiado autónomo",
+                "significance": "Aterrizaje de precisión más avanzado en Marte"
+            },
+            {
+                "year": 2021,
+                "description": "Ingenuity realizó primer vuelo motorizado en otro planeta",
+                "significance": "Hito histórico en aviación extraterrestre"
+            },
+            {
+                "year": "2021-presente",
+                "description": "Recolección de muestras para futura misión de retorno",
+                "significance": "Primera etapa de Mars Sample Return"
+            },
+            {
+                "year": 2022,
+                "description": "Produjo oxígeno a partir del CO2 marciano (MOXIE)",
+                "significance": "Demostración de producción in-situ de recursos"
+            }
+        ],
+        "scientific_objectives": [
+            "Buscar señales de vida microbiana pasada",
+            "Recolectar y almacenar muestras de roca y suelo",
+            "Caracterizar geología del cráter Jezero",
+            "Demostrar tecnologías para futura exploración humana",
+            "Estudiar la atmósfera marciana"
+        ],
+        "key_instruments": [
+            "Mastcam-Z (cámaras zoom estereoscópicas)",
+            "SuperCam (láser y espectrómetros)",
+            "PIXL (espectrómetro de rayos X)",
+            "SHERLOC (espectrómetro Raman UV)",
+            "MOXIE (generador de oxígeno)",
+            "RIMFAX (radar de penetración)",
+            "MEDA (estación meteorológica)"
+        ],
+        "mission_highlights": [
+            "38 tubos de muestras recolectados hasta la fecha",
+            "Primera producción de oxígeno en Marte",
+            "Helicóptero Ingenuity superó expectativas (72 vs 5 vuelos)",
+            "Exploración de delta fluvial antiguo",
+            "Grabaciones de sonidos de Marte"
+        ],
+        "description": "El rover más avanzado en Marte, recolectando muestras para futuro retorno a la Tierra",
+        "official_url": "https://science.nasa.gov/mission/mars-2020-perseverance/",
+        "images": [],
+        "related_bodies": [
+            "cb_mars"
+        ]
+    }
+]
