@@ -1,3 +1,5 @@
+import { SynchronizeImagesUseCase } from "@src/lib/synchronize/application/UseCases/images/synchonize.usecase";
+import { NasaSynchronizeRepository } from "@src/lib/synchronize/infraestructure/database/repository/nasa-syncrhonize.repository";
 import { GetAllUseCase } from "src/lib/planets/application/UseCases/getAll.usecase";
 import { GetByCodeUseCase } from "src/lib/planets/application/UseCases/getByCode.usecase";
 import { PrismaPlanetRepository } from "src/lib/planets/infraestructure/database/repositories/prisma-planets.repository";
@@ -22,6 +24,11 @@ export const buildTransactionalServices = () => {
             getAll: new getAllUseCase(
                 new PrismaSpaceMissionsRepository()
             ),
+        },
+        synchronizeService: {
+            images: new SynchronizeImagesUseCase(
+                new NasaSynchronizeRepository()
+            )
         }
     };
 };

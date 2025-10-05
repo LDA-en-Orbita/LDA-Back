@@ -3,6 +3,7 @@ export const APP_CATALOG = {
   datasets: {
     planets: "planets",
     space_missions: "space_missions",
+    synchronize: "synchronize"
   },
 } as const;
 
