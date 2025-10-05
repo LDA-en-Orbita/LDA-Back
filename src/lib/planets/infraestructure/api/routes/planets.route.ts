@@ -6,6 +6,11 @@ const router = Router();
 const controller = new PlanetsController();
 
 router.get(
+    '/',
+    controller.getAll
+)
+
+router.get(
     '/:code',
     ValidateCodeRequest,
     controller.getByCode

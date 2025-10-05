@@ -2,7 +2,7 @@ import { CodePlanetsEnums } from "@shared/enums/code-planets.enum";
 import { resolveToPlanetCode } from "@shared/infrastructure/helpers";
 import { __ } from "@shared/validations/messages";
 import { Request, Response, NextFunction } from "express";
-import { param, query, validationResult } from "express-validator";
+import { param, validationResult } from "express-validator";
 import { StatusCodes } from "http-status-codes";
 
 declare global {
