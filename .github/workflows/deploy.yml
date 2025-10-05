@@ -35,5 +35,5 @@ jobs:
             docker rm back-lda || true
 
             docker build -t back-lda:latest .
-            docker run -d -p 3003:3000 --name back-lda back-lda:latest
+            docker run -d -p 3003:3000 --env-file .env --name back-lda back-lda:latest
           EOF
