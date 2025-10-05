@@ -22,10 +22,7 @@ export class ObservationTipsController {
     }
     async getAll(req: Request, res: Response, next: NextFunction) {
         try {
-            const page: PaginationParams = {
-                cursor: Number(req.query.cursor) || 1,
-                limit: Number(req.query.limit) || 10,
-            };
+            const page = req.page as PaginationParams;
 
             const info = await withServicesTransaction(async (services) => {
                 return await services.observationTipsService.getAll.execute(
