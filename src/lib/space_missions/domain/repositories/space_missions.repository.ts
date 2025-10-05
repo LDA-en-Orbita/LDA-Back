@@ -4,5 +4,5 @@ import { PaginationResponse } from "@shared/pagination/cursor/PaginationResponse
 
 export interface SpaceMissionsRepository {
     getByPlanet(code: CodePlanetsEnums): Promise<any>;
-    getAll(page: PaginationParams): Promise<PaginationResponse<any>>;
+    getAll<T>(page: PaginationParams): Promise<PaginationResponse<T>>;
 }

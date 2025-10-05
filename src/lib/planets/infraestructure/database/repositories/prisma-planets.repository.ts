@@ -16,7 +16,7 @@ export class PrismaPlanetRepository implements PlanetsRepository {
         return this.reader.readById(code);
     }
 
-    async getAll(): Promise<Record<CodePlanetsEnums, any>> {
-        return this.reader.readMany(PLANET_CODES);
+    async getAll<T>(): Promise<any> {
+        return this.reader.readMany<T>(PLANET_CODES, true);
     }
 }

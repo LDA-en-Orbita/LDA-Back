@@ -25,12 +25,10 @@ export class SpaceMissionsController {
         try {
             const page = req.page as PaginationParams;
 
-            const info = await withServicesTransaction(async (services) => {
+            const result = await withServicesTransaction(async (services) => {
                 return await services.spaceMissionsService.getAll.execute(page);
             });
-            res.status(StatusCodes.OK).json({
-                data: info,
-            });
+            res.status(StatusCodes.OK).json(result);
         } catch (error) {
             next(error);
         }
