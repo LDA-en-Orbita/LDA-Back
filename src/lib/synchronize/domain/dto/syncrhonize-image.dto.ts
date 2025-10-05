@@ -17,17 +17,20 @@ export interface ResolvedImage {
   keywords?: string[];
 }
 
+
+export type PlanetImageItem = {
+  title: string;
+  nasaId: string;
+  url: string;
+  source: string;
+  keywords?: string[];
+};
+
 export type PlanetImageJson = {
   planet: string;
   count: number;
-  items: Array<{
-    title: string;
-    nasaId: string;
-    url: string;
-    source: string;
-    keywords?: string[];
-  }>;
   keywordsIndex?: Record<string, number>;
-  groups?: Record<string, PlanetImageJson["items"]>;
+  groups?: Record<string, PlanetImageItem[]>;
   groupsIndex?: Record<string, number>;
 };
+

@@ -4,525 +4,578 @@
   "data": {
     "planet": "Mars",
     "count": 52,
-    "items": [
-      {
-        "title": "Mars Rover Studies Soil on Mars",
-        "nasaId": "PIA07081",
-        "url": "https://images-assets.nasa.gov/image/PIA07081/PIA07081~small.jpg",
-        "source": "images-api.nasa.gov",
-        "keywords": [
-          "mars",
-          "mars exploration rover mer"
-        ]
-      },
-      {
-        "title": "Mars Polar Lander and Mars Pathfinder Sites Compared",
-        "nasaId": "PIA02311",
-        "url": "https://images-assets.nasa.gov/image/PIA02311/PIA02311~small.jpg",
-        "source": "images-api.nasa.gov",
-        "keywords": [
-          "mars",
-          "mars global surveyor mgs"
-        ]
-      },
-      {
-        "title": "Dynamic Mars",
-        "nasaId": "PIA04947",
-        "url": "https://images-assets.nasa.gov/image/PIA04947/PIA04947~medium.jpg",
-        "source": "images-api.nasa.gov",
-        "keywords": [
-          "mars",
-          "2001 mars odyssey"
-        ]
-      },
-      {
-        "title": "Mars in Color",
-        "nasaId": "PIA04778",
-        "url": "https://images-assets.nasa.gov/image/PIA04778/PIA04778~small.jpg",
-        "source": "images-api.nasa.gov",
-        "keywords": [
-          "mars",
-          "2001 mars odyssey"
-        ]
-      },
-      {
-        "title": "Pathfinder on Mars",
-        "nasaId": "PIA01120",
-        "url": "https://images-assets.nasa.gov/image/PIA01120/PIA01120~medium.jpg",
-        "source": "images-api.nasa.gov",
-        "keywords": [
-          "mars",
-          "mars pathfinder mpf"
-        ]
-      },
-      {
-        "title": "Rippled Mars",
-        "nasaId": "PIA06731",
-        "url": "https://images-assets.nasa.gov/image/PIA06731/PIA06731~small.jpg",
-        "source": "images-api.nasa.gov",
-        "keywords": [
-          "mars",
-          "mars global surveyor mgs"
-        ]
-      },
-      {
-        "title": "Mars-shine",
-        "nasaId": "PIA03201",
-        "url": "https://images-assets.nasa.gov/image/PIA03201/PIA03201~small.jpg",
-        "source": "images-api.nasa.gov",
-        "keywords": [
-          "mars",
-          "mars exploration rover mer"
-        ]
-      },
-      {
-        "title": "Moessbauer on Mars",
-        "nasaId": "PIA05197",
-        "url": "https://images-assets.nasa.gov/image/PIA05197/PIA05197~thumb.jpg",
-        "source": "images-api.nasa.gov",
-        "keywords": [
-          "mars",
-          "mars exploration rover mer"
-        ]
-      },
-      {
-        "title": "Mars 2003",
-        "nasaId": "PIA04591",
-        "url": "https://images-assets.nasa.gov/image/PIA04591/PIA04591~thumb.jpg",
-        "source": "images-api.nasa.gov",
-        "keywords": [
-          "mars",
-          "mars global surveyor mgs"
-        ]
-      },
-      {
-        "title": "Mars Albedo",
-        "nasaId": "PIA02816",
-        "url": "https://images-assets.nasa.gov/image/PIA02816/PIA02816~medium.jpg",
-        "source": "images-api.nasa.gov",
-        "keywords": [
-          "mars",
-          "mars global surveyor mgs"
-        ]
-      },
-      {
-        "title": "Cracked Mars",
-        "nasaId": "PIA08561",
-        "url": "https://images-assets.nasa.gov/image/PIA08561/PIA08561~small.jpg",
-        "source": "images-api.nasa.gov",
-        "keywords": [
-          "mars",
-          "mars global surveyor mgs"
-        ]
-      },
-      {
-        "title": "Turning on Mars",
-        "nasaId": "PIA05054",
-        "url": "https://images-assets.nasa.gov/image/PIA05054/PIA05054~small.jpg",
-        "source": "images-api.nasa.gov",
-        "keywords": [
-          "mars",
-          "mars exploration rover mer"
-        ]
-      },
-      {
-        "title": "Microscope on Mars",
-        "nasaId": "PIA05195",
-        "url": "https://images-assets.nasa.gov/image/PIA05195/PIA05195~thumb.jpg",
-        "source": "images-api.nasa.gov",
-        "keywords": [
-          "mars",
-          "mars exploration rover mer"
-        ]
-      },
-      {
-        "title": "Hematite on Mars!",
-        "nasaId": "PIA05179",
-        "url": "https://images-assets.nasa.gov/image/PIA05179/PIA05179~thumb.jpg",
-        "source": "images-api.nasa.gov",
-        "keywords": [
-          "mars",
-          "mars exploration rover mer"
-        ]
-      },
-      {
-        "title": "Rippled Mars",
-        "nasaId": "PIA04811",
-        "url": "https://images-assets.nasa.gov/image/PIA04811/PIA04811~medium.jpg",
-        "source": "images-api.nasa.gov",
-        "keywords": [
-          "mars",
-          "mars global surveyor mgs"
-        ]
-      },
-      {
-        "title": "Rat on Mars",
-        "nasaId": "PIA05194",
-        "url": "https://images-assets.nasa.gov/image/PIA05194/PIA05194~thumb.jpg",
-        "source": "images-api.nasa.gov",
-        "keywords": [
-          "mars",
-          "mars exploration rover mer"
-        ]
-      },
-      {
-        "title": "Mars Express Seen by Mars Global Surveyor",
-        "nasaId": "PIA07944",
-        "url": "https://images-assets.nasa.gov/image/PIA07944/PIA07944~thumb.jpg",
-        "source": "images-api.nasa.gov",
-        "keywords": [
-          "mars global surveyor mgs mars express mex"
-        ]
-      },
-      {
-        "title": "Topography of Mars",
-        "nasaId": "PIA15094",
-        "url": "https://images-assets.nasa.gov/image/PIA15094/PIA15094~thumb.jpg",
-        "source": "images-api.nasa.gov",
-        "keywords": [
-          "mars",
-          "mars global surveyor mgs"
-        ]
-      },
-      {
-        "title": "Ice On Mars",
-        "nasaId": "PIA00533",
-        "url": "https://images-assets.nasa.gov/image/PIA00533/PIA00533~thumb.jpg",
-        "source": "images-api.nasa.gov",
-        "keywords": [
-          "mars",
-          "viking"
-        ]
-      },
-      {
-        "title": "Polygon on Mars",
-        "nasaId": "PIA10683",
-        "url": "https://images-assets.nasa.gov/image/PIA10683/PIA10683~small.jpg",
-        "source": "images-api.nasa.gov",
-        "keywords": [
-          "mars",
-          "phoenix"
-        ]
-      },
-      {
-        "title": "Frost on Mars",
-        "nasaId": "PIA11132",
-        "url": "https://images-assets.nasa.gov/image/PIA11132/PIA11132~small.jpg",
-        "source": "images-api.nasa.gov",
-        "keywords": [
-          "mars",
-          "phoenix"
-        ]
-      },
-      {
-        "title": "Mars Odyssey Orbiter By the Numbers",
-        "nasaId": "PIA24915",
-        "url": "https://images-assets.nasa.gov/image/PIA24915/PIA24915~medium.jpg",
-        "source": "images-api.nasa.gov",
-        "keywords": [
-          "2001 mars odyssey",
-          "mars"
-        ]
-      },
-      {
-        "title": "Procedure for Finding New Impact Sites on Mars Using the Mars Global   Surveyor Mars Orbiter Camera",
-        "nasaId": "PIA09021",
-        "url": "https://images-assets.nasa.gov/image/PIA09021/PIA09021~medium.jpg",
-        "source": "images-api.nasa.gov",
-        "keywords": [
-          "mars",
-          "mars global surveyor mgs"
-        ]
-      },
-      {
-        "title": "The Two Moons of Mars as Seen from Mars",
-        "nasaId": "PIA06336",
-        "url": "https://images-assets.nasa.gov/image/PIA06336/PIA06336~small.jpg",
-        "source": "images-api.nasa.gov",
-        "keywords": [
-          "phobos",
-          "mars exploration rover mer"
-        ]
-      },
-      {
-        "title": "Mars At Opposition",
-        "nasaId": "PIA01252",
-        "url": "https://images-assets.nasa.gov/image/PIA01252/PIA01252~thumb.jpg",
-        "source": "images-api.nasa.gov",
-        "keywords": [
-          "mars",
-          "hubble space telescope"
-        ]
-      },
-      {
-        "title": "Mars at Ls 93°: Tharsis",
-        "nasaId": "PIA08636",
-        "url": "https://images-assets.nasa.gov/image/PIA08636/PIA08636~small.jpg",
-        "source": "images-api.nasa.gov",
-        "keywords": [
-          "mars",
-          "mars global surveyor mgs"
-        ]
-      },
-      {
-        "title": "MGS MOC Image of Mars Exploration Rover, Spirit, on Mars",
-        "nasaId": "PIA05248",
-        "url": "https://images-assets.nasa.gov/image/PIA05248/PIA05248~medium.jpg",
-        "source": "images-api.nasa.gov",
-        "keywords": [
-          "mars",
-          "mars global surveyor mgs"
-        ]
-      },
-      {
-        "title": "New Mars Camera First Image of Mars from Mapping Orbit",
-        "nasaId": "PIA08789",
-        "url": "https://images-assets.nasa.gov/image/PIA08789/PIA08789~medium.jpg",
-        "source": "images-api.nasa.gov",
-        "keywords": [
-          "mars",
-          "mars reconnaissance orbiter mro"
-        ]
-      },
-      {
-        "title": "MGS Mars Orbiter Laser Altimeter MOLA - Mars/Earth Relief Comparison",
-        "nasaId": "PIA00960",
-        "url": "https://images-assets.nasa.gov/image/PIA00960/PIA00960~medium.jpg",
-        "source": "images-api.nasa.gov",
-        "keywords": [
-          "mars",
-          "mars global surveyor mgs"
-        ]
-      },
-      {
-        "title": "Mars at Ls 12°: Tharsis",
-        "nasaId": "PIA02165",
-        "url": "https://images-assets.nasa.gov/image/PIA02165/PIA02165~small.jpg",
-        "source": "images-api.nasa.gov",
-        "keywords": [
-          "mars",
-          "mars global surveyor mgs"
-        ]
-      },
-      {
-        "title": "Mars Odyssey Seen by Mars Global Surveyor",
-        "nasaId": "PIA07942",
-        "url": "https://images-assets.nasa.gov/image/PIA07942/PIA07942~thumb.jpg",
-        "source": "images-api.nasa.gov",
-        "keywords": [
-          "2001 mars odyssey mars global surveyor mgs"
-        ]
-      },
-      {
-        "title": "Mars Pathfinder Landing Ellipses",
-        "nasaId": "PIA01123",
-        "url": "https://images-assets.nasa.gov/image/PIA01123/PIA01123~small.jpg",
-        "source": "images-api.nasa.gov",
-        "keywords": [
-          "mars",
-          "mars pathfinder mpf"
-        ]
-      },
-      {
-        "title": "Mars Pathfinder Landing Site",
-        "nasaId": "PIA01124",
-        "url": "https://images-assets.nasa.gov/image/PIA01124/PIA01124~medium.jpg",
-        "source": "images-api.nasa.gov",
-        "keywords": [
-          "mars",
-          "mars pathfinder mpf"
-        ]
-      },
-      {
-        "title": "Potassium Concentrations on Mars",
-        "nasaId": "PIA11421",
-        "url": "https://images-assets.nasa.gov/image/PIA11421/PIA11421~small.jpg",
-        "source": "images-api.nasa.gov",
-        "keywords": [
-          "mars",
-          "2001 mars odyssey"
-        ]
-      },
-      {
-        "title": "Pathfinder Landers - In Test and On Mars",
-        "nasaId": "PIA01550",
-        "url": "https://images-assets.nasa.gov/image/PIA01550/PIA01550~small.jpg",
-        "source": "images-api.nasa.gov",
-        "keywords": [
-          "mars",
-          "mars pathfinder mpf"
-        ]
-      },
-      {
-        "title": "Radiation Environment at Mars and Earth",
-        "nasaId": "PIA04909",
-        "url": "https://images-assets.nasa.gov/image/PIA04909/PIA04909~thumb.jpg",
-        "source": "images-api.nasa.gov",
-        "keywords": [
-          "mars",
-          "2001 mars odyssey"
-        ]
-      },
-      {
-        "title": "Seasonal Frost Changes on Mars",
-        "nasaId": "PIA04596",
-        "url": "https://images-assets.nasa.gov/image/PIA04596/PIA04596~medium.jpg",
-        "source": "images-api.nasa.gov",
-        "keywords": [
-          "mars",
-          "2001 mars odyssey"
-        ]
-      },
-      {
-        "title": "Resurfaced Mars",
-        "nasaId": "PIA04080",
-        "url": "https://images-assets.nasa.gov/image/PIA04080/PIA04080~small.jpg",
-        "source": "images-api.nasa.gov",
-        "keywords": [
-          "mars",
-          "2001 mars odyssey"
-        ]
-      },
-      {
-        "title": "Radargram of Mars North Polar Plateau from Mars Express",
-        "nasaId": "PIA15117",
-        "url": "https://images-assets.nasa.gov/image/PIA15117/PIA15117~thumb.jpg",
-        "source": "images-api.nasa.gov",
-        "keywords": [
-          "mars",
-          "mars express mex mars global surveyor mgs"
-        ]
-      },
-      {
-        "title": "Northern Plains of Mars",
-        "nasaId": "PIA07064",
-        "url": "https://images-assets.nasa.gov/image/PIA07064/PIA07064~small.jpg",
-        "source": "images-api.nasa.gov",
-        "keywords": [
-          "mars",
-          "mars global surveyor mgs"
-        ]
-      },
-      {
-        "title": "Belly Dancing on Mars",
-        "nasaId": "PIA05064",
-        "url": "https://images-assets.nasa.gov/image/PIA05064/PIA05064~small.jpg",
-        "source": "images-api.nasa.gov",
-        "keywords": [
-          "mars",
-          "mars exploration rover mer"
-        ]
-      },
-      {
-        "title": "Mars at Ls 211°: Tharsis",
-        "nasaId": "PIA07893",
-        "url": "https://images-assets.nasa.gov/image/PIA07893/PIA07893~small.jpg",
-        "source": "images-api.nasa.gov",
-        "keywords": [
-          "mars",
-          "mars global surveyor mgs"
-        ]
-      },
-      {
-        "title": "Mars Under the Microscope color",
-        "nasaId": "PIA05208",
-        "url": "https://images-assets.nasa.gov/image/PIA05208/PIA05208~small.jpg",
-        "source": "images-api.nasa.gov",
-        "keywords": [
-          "mars",
-          "mars exploration rover mer"
-        ]
-      },
-      {
-        "title": "Spirit Descent to Mars-1983",
-        "nasaId": "PIA04985",
-        "url": "https://images-assets.nasa.gov/image/PIA04985/PIA04985~small.jpg",
-        "source": "images-api.nasa.gov",
-        "keywords": [
-          "mars",
-          "mars exploration rover mer"
-        ]
-      },
-      {
-        "title": "Mars on 25 December 2003",
-        "nasaId": "PIA05125",
-        "url": "https://images-assets.nasa.gov/image/PIA05125/PIA05125~medium.jpg",
-        "source": "images-api.nasa.gov",
-        "keywords": [
-          "mars",
-          "mars global surveyor mgs"
-        ]
-      },
-      {
-        "title": "Mars at Ls 341°: Tharsis",
-        "nasaId": "PIA03620",
-        "url": "https://images-assets.nasa.gov/image/PIA03620/PIA03620~small.jpg",
-        "source": "images-api.nasa.gov",
-        "keywords": [
-          "mars",
-          "mars global surveyor mgs"
-        ]
-      },
-      {
-        "title": "Locating Landers on Mars",
-        "nasaId": "PIA05121",
-        "url": "https://images-assets.nasa.gov/image/PIA05121/PIA05121~small.jpg",
-        "source": "images-api.nasa.gov",
-        "keywords": [
-          "mars",
-          "mars global surveyor mgs"
-        ]
-      },
-      {
-        "title": "Mars and the Solar Wind",
-        "nasaId": "PIA00948",
-        "url": "https://images-assets.nasa.gov/image/PIA00948/PIA00948~small.jpg",
-        "source": "images-api.nasa.gov",
-        "keywords": [
-          "mars",
-          "mars global surveyor mgs"
-        ]
-      },
-      {
-        "title": "Shades and Shapes of Mars",
-        "nasaId": "PIA05159",
-        "url": "https://images-assets.nasa.gov/image/PIA05159/PIA05159~small.jpg",
-        "source": "images-api.nasa.gov",
-        "keywords": [
-          "mars",
-          "mars exploration rover mer"
-        ]
-      },
-      {
-        "title": "Apollinaris Patera, Mars",
-        "nasaId": "PIA02006",
-        "url": "https://images-assets.nasa.gov/image/PIA02006/PIA02006~thumb.jpg",
-        "source": "images-api.nasa.gov",
-        "keywords": [
-          "mars",
-          "mars global surveyor mgs"
-        ]
-      },
-      {
-        "title": "Intrepid Crater on Mars Color",
-        "nasaId": "PIA13593",
-        "url": "https://images-assets.nasa.gov/image/PIA13593/PIA13593~small.jpg",
-        "source": "images-api.nasa.gov",
-        "keywords": [
-          "mars",
-          "mars exploration rover mer"
-        ]
-      },
-      {
-        "title": "True Colors of Mars",
-        "nasaId": "PIA05042",
-        "url": "https://images-assets.nasa.gov/image/PIA05042/PIA05042~small.jpg",
-        "source": "images-api.nasa.gov",
-        "keywords": [
-          "mars",
-          "mars exploration rover mer"
-        ]
-      }
-    ]
+    "keywordsIndex": {
+      "mars": 49,
+      "mars global surveyor mgs": 19,
+      "mars exploration rover mer": 14,
+      "2001 mars odyssey": 7,
+      "mars pathfinder mpf": 4,
+      "phoenix": 2,
+      "mars global surveyor mgs mars express mex": 1,
+      "viking": 1,
+      "phobos": 1,
+      "hubble space telescope": 1,
+      "mars reconnaissance orbiter mro": 1,
+      "2001 mars odyssey mars global surveyor mgs": 1,
+      "mars express mex mars global surveyor mgs": 1
+    },
+    "groups": {
+      "mars_mars_exploration_rover_mer": [
+        {
+          "title": "Mars Rover Studies Soil on Mars",
+          "nasaId": "PIA07081",
+          "url": "https://images-assets.nasa.gov/image/PIA07081/PIA07081~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "mars",
+            "mars exploration rover mer"
+          ]
+        },
+        {
+          "title": "Mars-shine",
+          "nasaId": "PIA03201",
+          "url": "https://images-assets.nasa.gov/image/PIA03201/PIA03201~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "mars",
+            "mars exploration rover mer"
+          ]
+        },
+        {
+          "title": "Moessbauer on Mars",
+          "nasaId": "PIA05197",
+          "url": "https://images-assets.nasa.gov/image/PIA05197/PIA05197~thumb.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "mars",
+            "mars exploration rover mer"
+          ]
+        },
+        {
+          "title": "Turning on Mars",
+          "nasaId": "PIA05054",
+          "url": "https://images-assets.nasa.gov/image/PIA05054/PIA05054~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "mars",
+            "mars exploration rover mer"
+          ]
+        },
+        {
+          "title": "Microscope on Mars",
+          "nasaId": "PIA05195",
+          "url": "https://images-assets.nasa.gov/image/PIA05195/PIA05195~thumb.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "mars",
+            "mars exploration rover mer"
+          ]
+        },
+        {
+          "title": "Hematite on Mars!",
+          "nasaId": "PIA05179",
+          "url": "https://images-assets.nasa.gov/image/PIA05179/PIA05179~thumb.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "mars",
+            "mars exploration rover mer"
+          ]
+        },
+        {
+          "title": "Rat on Mars",
+          "nasaId": "PIA05194",
+          "url": "https://images-assets.nasa.gov/image/PIA05194/PIA05194~thumb.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "mars",
+            "mars exploration rover mer"
+          ]
+        },
+        {
+          "title": "Belly Dancing on Mars",
+          "nasaId": "PIA05064",
+          "url": "https://images-assets.nasa.gov/image/PIA05064/PIA05064~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "mars",
+            "mars exploration rover mer"
+          ]
+        },
+        {
+          "title": "Mars Under the Microscope color",
+          "nasaId": "PIA05208",
+          "url": "https://images-assets.nasa.gov/image/PIA05208/PIA05208~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "mars",
+            "mars exploration rover mer"
+          ]
+        },
+        {
+          "title": "Spirit Descent to Mars-1983",
+          "nasaId": "PIA04985",
+          "url": "https://images-assets.nasa.gov/image/PIA04985/PIA04985~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "mars",
+            "mars exploration rover mer"
+          ]
+        },
+        {
+          "title": "Shades and Shapes of Mars",
+          "nasaId": "PIA05159",
+          "url": "https://images-assets.nasa.gov/image/PIA05159/PIA05159~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "mars",
+            "mars exploration rover mer"
+          ]
+        },
+        {
+          "title": "Intrepid Crater on Mars Color",
+          "nasaId": "PIA13593",
+          "url": "https://images-assets.nasa.gov/image/PIA13593/PIA13593~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "mars",
+            "mars exploration rover mer"
+          ]
+        },
+        {
+          "title": "True Colors of Mars",
+          "nasaId": "PIA05042",
+          "url": "https://images-assets.nasa.gov/image/PIA05042/PIA05042~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "mars",
+            "mars exploration rover mer"
+          ]
+        }
+      ],
+      "mars_mars_global_surveyor_mgs": [
+        {
+          "title": "Mars Polar Lander and Mars Pathfinder Sites Compared",
+          "nasaId": "PIA02311",
+          "url": "https://images-assets.nasa.gov/image/PIA02311/PIA02311~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "mars",
+            "mars global surveyor mgs"
+          ]
+        },
+        {
+          "title": "Rippled Mars",
+          "nasaId": "PIA06731",
+          "url": "https://images-assets.nasa.gov/image/PIA06731/PIA06731~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "mars",
+            "mars global surveyor mgs"
+          ]
+        },
+        {
+          "title": "Mars 2003",
+          "nasaId": "PIA04591",
+          "url": "https://images-assets.nasa.gov/image/PIA04591/PIA04591~thumb.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "mars",
+            "mars global surveyor mgs"
+          ]
+        },
+        {
+          "title": "Mars Albedo",
+          "nasaId": "PIA02816",
+          "url": "https://images-assets.nasa.gov/image/PIA02816/PIA02816~medium.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "mars",
+            "mars global surveyor mgs"
+          ]
+        },
+        {
+          "title": "Cracked Mars",
+          "nasaId": "PIA08561",
+          "url": "https://images-assets.nasa.gov/image/PIA08561/PIA08561~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "mars",
+            "mars global surveyor mgs"
+          ]
+        },
+        {
+          "title": "Rippled Mars",
+          "nasaId": "PIA04811",
+          "url": "https://images-assets.nasa.gov/image/PIA04811/PIA04811~medium.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "mars",
+            "mars global surveyor mgs"
+          ]
+        },
+        {
+          "title": "Topography of Mars",
+          "nasaId": "PIA15094",
+          "url": "https://images-assets.nasa.gov/image/PIA15094/PIA15094~thumb.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "mars",
+            "mars global surveyor mgs"
+          ]
+        },
+        {
+          "title": "Procedure for Finding New Impact Sites on Mars Using the Mars Global   Surveyor Mars Orbiter Camera",
+          "nasaId": "PIA09021",
+          "url": "https://images-assets.nasa.gov/image/PIA09021/PIA09021~medium.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "mars",
+            "mars global surveyor mgs"
+          ]
+        },
+        {
+          "title": "Mars at Ls 93°: Tharsis",
+          "nasaId": "PIA08636",
+          "url": "https://images-assets.nasa.gov/image/PIA08636/PIA08636~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "mars",
+            "mars global surveyor mgs"
+          ]
+        },
+        {
+          "title": "MGS MOC Image of Mars Exploration Rover, Spirit, on Mars",
+          "nasaId": "PIA05248",
+          "url": "https://images-assets.nasa.gov/image/PIA05248/PIA05248~medium.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "mars",
+            "mars global surveyor mgs"
+          ]
+        },
+        {
+          "title": "MGS Mars Orbiter Laser Altimeter MOLA - Mars/Earth Relief Comparison",
+          "nasaId": "PIA00960",
+          "url": "https://images-assets.nasa.gov/image/PIA00960/PIA00960~medium.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "mars",
+            "mars global surveyor mgs"
+          ]
+        },
+        {
+          "title": "Mars at Ls 12°: Tharsis",
+          "nasaId": "PIA02165",
+          "url": "https://images-assets.nasa.gov/image/PIA02165/PIA02165~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "mars",
+            "mars global surveyor mgs"
+          ]
+        },
+        {
+          "title": "Northern Plains of Mars",
+          "nasaId": "PIA07064",
+          "url": "https://images-assets.nasa.gov/image/PIA07064/PIA07064~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "mars",
+            "mars global surveyor mgs"
+          ]
+        },
+        {
+          "title": "Mars at Ls 211°: Tharsis",
+          "nasaId": "PIA07893",
+          "url": "https://images-assets.nasa.gov/image/PIA07893/PIA07893~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "mars",
+            "mars global surveyor mgs"
+          ]
+        },
+        {
+          "title": "Mars on 25 December 2003",
+          "nasaId": "PIA05125",
+          "url": "https://images-assets.nasa.gov/image/PIA05125/PIA05125~medium.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "mars",
+            "mars global surveyor mgs"
+          ]
+        },
+        {
+          "title": "Mars at Ls 341°: Tharsis",
+          "nasaId": "PIA03620",
+          "url": "https://images-assets.nasa.gov/image/PIA03620/PIA03620~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "mars",
+            "mars global surveyor mgs"
+          ]
+        },
+        {
+          "title": "Locating Landers on Mars",
+          "nasaId": "PIA05121",
+          "url": "https://images-assets.nasa.gov/image/PIA05121/PIA05121~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "mars",
+            "mars global surveyor mgs"
+          ]
+        },
+        {
+          "title": "Mars and the Solar Wind",
+          "nasaId": "PIA00948",
+          "url": "https://images-assets.nasa.gov/image/PIA00948/PIA00948~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "mars",
+            "mars global surveyor mgs"
+          ]
+        },
+        {
+          "title": "Apollinaris Patera, Mars",
+          "nasaId": "PIA02006",
+          "url": "https://images-assets.nasa.gov/image/PIA02006/PIA02006~thumb.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "mars",
+            "mars global surveyor mgs"
+          ]
+        }
+      ],
+      "mars_2001_mars_odyssey": [
+        {
+          "title": "Dynamic Mars",
+          "nasaId": "PIA04947",
+          "url": "https://images-assets.nasa.gov/image/PIA04947/PIA04947~medium.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "mars",
+            "2001 mars odyssey"
+          ]
+        },
+        {
+          "title": "Mars in Color",
+          "nasaId": "PIA04778",
+          "url": "https://images-assets.nasa.gov/image/PIA04778/PIA04778~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "mars",
+            "2001 mars odyssey"
+          ]
+        },
+        {
+          "title": "Mars Odyssey Orbiter By the Numbers",
+          "nasaId": "PIA24915",
+          "url": "https://images-assets.nasa.gov/image/PIA24915/PIA24915~medium.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "2001 mars odyssey",
+            "mars"
+          ]
+        },
+        {
+          "title": "Potassium Concentrations on Mars",
+          "nasaId": "PIA11421",
+          "url": "https://images-assets.nasa.gov/image/PIA11421/PIA11421~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "mars",
+            "2001 mars odyssey"
+          ]
+        },
+        {
+          "title": "Radiation Environment at Mars and Earth",
+          "nasaId": "PIA04909",
+          "url": "https://images-assets.nasa.gov/image/PIA04909/PIA04909~thumb.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "mars",
+            "2001 mars odyssey"
+          ]
+        },
+        {
+          "title": "Seasonal Frost Changes on Mars",
+          "nasaId": "PIA04596",
+          "url": "https://images-assets.nasa.gov/image/PIA04596/PIA04596~medium.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "mars",
+            "2001 mars odyssey"
+          ]
+        },
+        {
+          "title": "Resurfaced Mars",
+          "nasaId": "PIA04080",
+          "url": "https://images-assets.nasa.gov/image/PIA04080/PIA04080~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "mars",
+            "2001 mars odyssey"
+          ]
+        }
+      ],
+      "mars_mars_pathfinder_mpf": [
+        {
+          "title": "Pathfinder on Mars",
+          "nasaId": "PIA01120",
+          "url": "https://images-assets.nasa.gov/image/PIA01120/PIA01120~medium.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "mars",
+            "mars pathfinder mpf"
+          ]
+        },
+        {
+          "title": "Mars Pathfinder Landing Ellipses",
+          "nasaId": "PIA01123",
+          "url": "https://images-assets.nasa.gov/image/PIA01123/PIA01123~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "mars",
+            "mars pathfinder mpf"
+          ]
+        },
+        {
+          "title": "Mars Pathfinder Landing Site",
+          "nasaId": "PIA01124",
+          "url": "https://images-assets.nasa.gov/image/PIA01124/PIA01124~medium.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "mars",
+            "mars pathfinder mpf"
+          ]
+        },
+        {
+          "title": "Pathfinder Landers - In Test and On Mars",
+          "nasaId": "PIA01550",
+          "url": "https://images-assets.nasa.gov/image/PIA01550/PIA01550~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "mars",
+            "mars pathfinder mpf"
+          ]
+        }
+      ],
+      "mars_global_surveyor_mgs_mars_express_mex": [
+        {
+          "title": "Mars Express Seen by Mars Global Surveyor",
+          "nasaId": "PIA07944",
+          "url": "https://images-assets.nasa.gov/image/PIA07944/PIA07944~thumb.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "mars global surveyor mgs mars express mex"
+          ]
+        }
+      ],
+      "mars_viking": [
+        {
+          "title": "Ice On Mars",
+          "nasaId": "PIA00533",
+          "url": "https://images-assets.nasa.gov/image/PIA00533/PIA00533~thumb.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "mars",
+            "viking"
+          ]
+        }
+      ],
+      "mars_phoenix": [
+        {
+          "title": "Polygon on Mars",
+          "nasaId": "PIA10683",
+          "url": "https://images-assets.nasa.gov/image/PIA10683/PIA10683~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "mars",
+            "phoenix"
+          ]
+        },
+        {
+          "title": "Frost on Mars",
+          "nasaId": "PIA11132",
+          "url": "https://images-assets.nasa.gov/image/PIA11132/PIA11132~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "mars",
+            "phoenix"
+          ]
+        }
+      ],
+      "mars_exploration_rover_mer_phobos": [
+        {
+          "title": "The Two Moons of Mars as Seen from Mars",
+          "nasaId": "PIA06336",
+          "url": "https://images-assets.nasa.gov/image/PIA06336/PIA06336~small.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "phobos",
+            "mars exploration rover mer"
+          ]
+        }
+      ],
+      "mars_hubble_space_telescope": [
+        {
+          "title": "Mars At Opposition",
+          "nasaId": "PIA01252",
+          "url": "https://images-assets.nasa.gov/image/PIA01252/PIA01252~thumb.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "mars",
+            "hubble space telescope"
+          ]
+        }
+      ],
+      "mars_mars_reconnaissance_orbiter_mro": [
+        {
+          "title": "New Mars Camera First Image of Mars from Mapping Orbit",
+          "nasaId": "PIA08789",
+          "url": "https://images-assets.nasa.gov/image/PIA08789/PIA08789~medium.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "mars",
+            "mars reconnaissance orbiter mro"
+          ]
+        }
+      ],
+      "2001_mars_odyssey_mars_global_surveyor_mgs": [
+        {
+          "title": "Mars Odyssey Seen by Mars Global Surveyor",
+          "nasaId": "PIA07942",
+          "url": "https://images-assets.nasa.gov/image/PIA07942/PIA07942~thumb.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "2001 mars odyssey mars global surveyor mgs"
+          ]
+        }
+      ],
+      "mars_mars_express_mex_mars_global_surveyor_mgs": [
+        {
+          "title": "Radargram of Mars North Polar Plateau from Mars Express",
+          "nasaId": "PIA15117",
+          "url": "https://images-assets.nasa.gov/image/PIA15117/PIA15117~thumb.jpg",
+          "source": "images-api.nasa.gov",
+          "keywords": [
+            "mars",
+            "mars express mex mars global surveyor mgs"
+          ]
+        }
+      ]
+    },
+    "groupsIndex": {
+      "mars_mars_exploration_rover_mer": 13,
+      "mars_mars_global_surveyor_mgs": 19,
+      "mars_2001_mars_odyssey": 7,
+      "mars_mars_pathfinder_mpf": 4,
+      "mars_global_surveyor_mgs_mars_express_mex": 1,
+      "mars_viking": 1,
+      "mars_phoenix": 2,
+      "mars_exploration_rover_mer_phobos": 1,
+      "mars_hubble_space_telescope": 1,
+      "mars_mars_reconnaissance_orbiter_mro": 1,
+      "2001_mars_odyssey_mars_global_surveyor_mgs": 1,
+      "mars_mars_express_mex_mars_global_surveyor_mgs": 1
+    }
   }
 }
