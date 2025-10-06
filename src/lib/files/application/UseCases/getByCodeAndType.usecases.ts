@@ -6,7 +6,7 @@ export class GetByCodeAndTypeUseCase {
     constructor(private readonly filesRepository: FilesRepository) {}
 
     async execute(params: ParamsFilesDto): Promise<any> {
-        // const file = await this.filesRepository.getByCode(params);
-        // return file;
+        const file = await this.filesRepository.getByCode(params);
+        return file;
     }
 }
