@@ -19,7 +19,7 @@ export class NasaFilesRepository implements FilesRepository {
         const result = searchGroupsStrict({
             keywords: params.keyword as string,
             nasaIds: params.nasaIds as string[],
-            keywordsIndex: payload.data.keywordsIndex,
+            keywordsIndex: payload.data.groupsIndex,
             groups: payload.data.groups
         });
 
