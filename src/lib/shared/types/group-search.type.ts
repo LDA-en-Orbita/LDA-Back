@@ -1,8 +1,9 @@
 export type KeywordsIndex = Record<string, number>;
-export type Groups = Record<string, any[]>;
+export type Groups<T = any> = Record<string, T[]>;
 export type GroupSearchResult<T = any> = {
-  keywordKey: string;
-  candidates: string[];
+  usedKeyword?: string;
+  suggestions: string[];
   matchedGroupKeys: string[];
-  items: T[]
+  totalItems: number;
+  items: T[];
 };

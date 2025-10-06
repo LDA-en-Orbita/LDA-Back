@@ -1,69 +1,114 @@
-import { Groups, GroupSearchResult, KeywordsIndex } from "@shared/types/group-search.type";
+import {
+    Groups,
+    GroupSearchResult,
+    KeywordsIndex,
+} from "@shared/types/group-search.type";
 
 const norm = (s: string) =>
-  s
-    .trim()
-    .toLowerCase()
-    .normalize("NFD")
-    .replace(/\p{Diacritic}/gu, "")
-    .replace(/\s+/g, "_");
+    s
+        .trim()
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(/\p{Diacritic}/gu, "")
+        .replace(/\s+/g, "_");
 
-const escapeRegex = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+const escapeRx = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
-function findKeywordCandidates(keywordsIndex: KeywordsIndex, qKey: string): string[] {
-  const keys = Object.keys(keywordsIndex);
-  const contains = keys.filter(k => k.includes(qKey));
-  const starts = keys.filter(k => k.startsWith(qKey));
-  const merged = Array.from(new Set([...starts, ...contains]));
-  merged.sort((a, b) => {
-    const fa = keywordsIndex[a] ?? 0;
-    const fb = keywordsIndex[b] ?? 0;
-    if (fb !== fa) return fb - fa;
-    return a.length - b.length;
-  });
-  return merged.slice(0, 10);
+function buildTokenRegex(token: string): RegExp {
+    const t = escapeRx(token);
+    return new RegExp(`(?:^|_)${t}(?:_|$)`);
 }
 
-function buildGroupTokenRegex(keywordKey: string): RegExp {
-  const token = escapeRegex(keywordKey);
-  return new RegExp(`(?:^|_)${token}(?:_|$)`);
-}
+const normalizeId = (v: string) => v.trim().toUpperCase();
 
-export function searchGroupsByKeyword<T = any>(
-  params: {
-    query: string;
+type MatchMode = "OR" | "AND";
+
+const buildNormIndexMap = (index: KeywordsIndex) => {
+    const m = new Map<string, string>();
+    for (const k of Object.keys(index)) {
+        m.set(norm(k), k);
+    }
+    return m;
+};
+
+export function searchGroupsStrict<T = any>(params: {
+    keywords?: string | string[];
+    nasaIds?: string[];
     keywordsIndex: KeywordsIndex;
-    groups: Groups;
-  }
-): GroupSearchResult<T> {
-  const { query, keywordsIndex, groups } = params;
-  const qKey = norm(query);
+    groups: Groups<T>;
+    mode?: MatchMode;
+}): GroupSearchResult<T> {
+    const { keywords, nasaIds, keywordsIndex, groups, mode = "OR" } = params;
 
-  let keywordKey = qKey;
-  let candidates: string[] = [];
-  if (!(qKey in keywordsIndex)) {
-    candidates = findKeywordCandidates(keywordsIndex, qKey);
-    if (candidates.length > 0) {
-      keywordKey = candidates[0];
-      candidates = candidates.slice(1);
+    const normIndex = buildNormIndexMap(keywordsIndex);
+    const keysNorm = (() => {
+        if (!keywords) return [];
+        const arr = Array.isArray(keywords) ? keywords : [keywords];
+        const normed = arr.map(norm).filter(Boolean);
+        return normed.filter((k) => normIndex.has(k));
+    })();
+
+    if (keywords && keysNorm.length === 0) {
+        return {
+            usedKeyword: undefined,
+            suggestions: [],
+            matchedGroupKeys: [],
+            totalItems: 0,
+            items: [],
+        };
     }
-  }
 
-  const rx = buildGroupTokenRegex(keywordKey);
-  const matchedGroupKeys = Object.keys(groups).filter(k => rx.test(k));
-
-  const dedupBy = (it: any) => it?.nasaId ?? it?.url ?? JSON.stringify(it);
-  const seen = new Set<string>();
-  const items: T[] = [];
-  for (const gk of matchedGroupKeys) {
-    const arr = groups[gk] ?? [];
-    for (const it of arr) {
-      const key = String(dedupBy(it));
-      if (seen.has(key)) continue;
-      seen.add(key);
-      items.push(it);
+    let matchedGroupKeys: string[];
+    if (keysNorm.length > 0) {
+        const groupKeys = Object.keys(groups);
+        if (mode === "AND") {
+            const regexes = keysNorm.map(buildTokenRegex);
+            matchedGroupKeys = groupKeys.filter((gk) =>
+                regexes.every((rx) => rx.test(gk))
+            );
+        } else {
+            const regexes = keysNorm.map(buildTokenRegex);
+            matchedGroupKeys = groupKeys.filter((gk) =>
+                regexes.some((rx) => rx.test(gk))
+            );
+        }
+    } else {
+        matchedGroupKeys = Object.keys(groups);
     }
-  }
 
-  return { keywordKey, candidates, matchedGroupKeys, items };
+    const seen = new Set<string>();
+    const dedupKey = (it: any) =>
+        it?.nasaId ?? it?.nasaID ?? it?.url ?? JSON.stringify(it);
+
+    const allMatched: T[] = [];
+    for (const gk of matchedGroupKeys) {
+        const arr = groups[gk] ?? [];
+        for (const it of arr) {
+            const k = String(dedupKey(it));
+            if (seen.has(k)) continue;
+            seen.add(k);
+            allMatched.push(it);
+        }
+    }
+
+    const totalItems = allMatched.length;
+
+    let items = allMatched;
+    if (Array.isArray(nasaIds) && nasaIds.length > 0) {
+        const wanted = new Set(nasaIds.map(normalizeId));
+        items = allMatched.filter((it: any) => {
+            const id = it?.nasaId ?? it?.nasaID ?? "";
+            return wanted.has(normalizeId(String(id)));
+        });
+    }
+
+    const usedKeyword = keysNorm.length === 1 ? keysNorm[0] : undefined;
+
+    return {
+        usedKeyword,
+        suggestions: [],
+        matchedGroupKeys,
+        totalItems,
+        items,
+    };
 }

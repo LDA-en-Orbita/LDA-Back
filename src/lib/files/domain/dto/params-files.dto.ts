@@ -3,5 +3,6 @@ import { CodePlanetsEnums } from '../../../shared/enums/code-planets.enum';
 export interface ParamsFilesDto {
     code: CodePlanetsEnums,
     type: DatasetKey,
-    target: string
+    keyword?: string;
+    nasaIds?: string[];
 }
