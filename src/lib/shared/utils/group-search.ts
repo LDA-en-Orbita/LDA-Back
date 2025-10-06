@@ -10,7 +10,8 @@ const norm = (s: string) =>
         .toLowerCase()
         .normalize("NFD")
         .replace(/\p{Diacritic}/gu, "")
-        .replace(/\s+/g, "_");
+        .replace(/[\s\-]+/g, "_")
+        .replace(/^_+|_+$/g, "");
 
 const escapeRx = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
@@ -24,9 +25,12 @@ const normalizeId = (v: string) => v.trim().toUpperCase();
 type MatchMode = "OR" | "AND";
 
 const buildNormIndexMap = (index: KeywordsIndex) => {
-    const m = new Map<string, string>();
+    const m = new Map<string, string[]>();
     for (const k of Object.keys(index)) {
-        m.set(norm(k), k);
+        const nk = norm(k);
+        const arr = m.get(nk) ?? [];
+        if (!arr.includes(k)) arr.push(k);
+        m.set(nk, arr);
     }
     return m;
 };
@@ -41,6 +45,7 @@ export function searchGroupsStrict<T = any>(params: {
     const { keywords, nasaIds, keywordsIndex, groups, mode = "OR" } = params;
 
     const normIndex = buildNormIndexMap(keywordsIndex);
+
     const keysNorm = (() => {
         if (!keywords) return [];
         const arr = Array.isArray(keywords) ? keywords : [keywords];
