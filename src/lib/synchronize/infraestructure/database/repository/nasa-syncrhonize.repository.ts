@@ -1,4 +1,3 @@
-import OpenAI from "openai";
 import {
     CandidateImage,
     PlanetImageItem,
@@ -16,20 +15,13 @@ import {
     dedupeAndNormalizeKeywords,
     normalizeKeyword,
 } from "@shared/utils/keywords";
-import { OutItem } from "@shared/types/json-write.type";
-import { FlatItem } from "@src/lib/synchronize/domain/types/flat-item.type";
 
 export class NasaSynchronizeRepository implements SynchronizeRepository {
     private readonly base = config.HOST_NASA_IMAGE;
-    private readonly openai: OpenAI;
     private readonly writer: JsonDatasetWriter<`${CodePlanetsEnums}`>;
     private readonly subdir?: string | string[];
 
     constructor(opts: CtorOpts = {}) {
-        const apiKey = opts.apiKey ?? config.OPENAI_API_KEY;
-        if (!apiKey) throw new Error("OPENAI_API_KEY is required");
-        this.openai = new OpenAI({ apiKey });
-
         const dataset = opts.dataset ?? "synchronize";
         this.writer = new JsonDatasetWriter<`${CodePlanetsEnums}`>(dataset);
         this.subdir = opts.subdir ?? ["images"];
