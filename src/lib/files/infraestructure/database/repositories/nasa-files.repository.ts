@@ -1,10 +1,9 @@
 import { JsonDatasetReader } from "@shared/datasets/json-dataset";
 import { CodePlanetsEnums } from "@shared/enums/code-planets.enum";
-import { searchGroupsByKeyword } from "@shared/utils/group-search";
+import { searchGroupsStrict } from "@shared/utils/group-search";
 import { ParamsFilesDto } from "@src/lib/files/domain/dto/params-files.dto";
 import { FilesRepository } from "@src/lib/files/domain/repositories/files.repository";
 import { CtorOpts } from "@src/lib/synchronize/domain/types/ctor-options.type";
-
 export class NasaFilesRepository implements FilesRepository {
     private readonly reader: JsonDatasetReader<`${CodePlanetsEnums}`>;
     private readonly subdir?: string | string[];
@@ -17,8 +16,9 @@ export class NasaFilesRepository implements FilesRepository {
     async getByCode(params: ParamsFilesDto): Promise<any>{
 
         const payload = await this.reader.readByIdFrom(params.code,this.subdir);
-        const result = searchGroupsByKeyword({
-            query: params.target as string,
+        const result = searchGroupsStrict({
+            keywords: params.keyword as string,
+            nasaIds: params.nasaIds as string[],
             keywordsIndex: payload.data.keywordsIndex,
             groups: payload.data.groups
         });
